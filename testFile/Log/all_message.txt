@@ -1,0 +1,94 @@
+﻿
+****************************************************************
+
+应用版本：  5.1.12.63002
+记录时间：  2019-05-07 15:00:07,768 
+线程ID  ：  [1] 
+日志级别：  ERROR 
+出错类  ：  AllMessageLog property:[(null)] - 
+错误描述：  Error WebBrowser访问网页：http://easinote.seewo.com/activity/introPlanB?type=1 超时（30秒）。
+
+****************************************************************
+
+应用版本：  5.1.12.63002
+记录时间：  2019-05-09 08:59:24,878 
+线程ID  ：  [53] 
+日志级别：  ERROR 
+出错类  ：  AllMessageLog property:[(null)] - 
+错误描述：  Error Error when DeleteFolder
+System.AggregateException: 发生一个或多个错误。 ---> System.IO.IOException: 文件“C:\Users\user\AppData\Roaming\Seewo\EasiNote5\Log\20190507_145741,16104”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 Cvte.EasiNote.Utils.Folder.DeleteFolder(String dirPath)
+   --- 内部异常堆栈跟踪的结尾 ---
+---> (内部异常 #0) System.IO.IOException: 文件“C:\Users\user\AppData\Roaming\Seewo\EasiNote5\Log\20190507_145741,16104”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 Cvte.EasiNote.Utils.Folder.DeleteFolder(String dirPath)<---
+
+---> (内部异常 #1) System.IO.IOException: 文件“C:\Users\user\AppData\Roaming\Seewo\EasiNote5\Log\20190507_145741,16104”正由另一进程使用，因此该进程无法访问此文件。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 Cvte.EasiNote.Utils.Folder.DeleteFolder(String dirPath)<---
+
+
+****************************************************************
+
+应用版本：  5.1.12.64091
+记录时间：  2019-05-18 09:37:48,971 
+线程ID  ：  [49] 
+日志级别：  ERROR 
+出错类  ：  AllMessageLog property:[(null)] - 
+错误描述：  Error Error when DeleteFolder
+System.AggregateException: 发生一个或多个错误。 ---> System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\user\AppData\Roaming\Seewo\EasiNote5\Log\20190510_104731,17800”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 Cvte.EasiNote.Utils.Folder.DeleteFolder(String dirPath)
+   --- 内部异常堆栈跟踪的结尾 ---
+---> (内部异常 #0) System.IO.DirectoryNotFoundException: 未能找到路径“C:\Users\user\AppData\Roaming\Seewo\EasiNote5\Log\20190510_104731,17800”的一部分。
+   在 System.IO.__Error.WinIOError(Int32 errorCode, String maybeFullPath)
+   在 System.IO.Directory.DeleteHelper(String fullPath, String userPath, Boolean recursive, Boolean throwOnTopLevelDirectoryNotFound, WIN32_FIND_DATA& data)
+   在 System.IO.Directory.Delete(String fullPath, String userPath, Boolean recursive, Boolean checkHost)
+   在 Cvte.EasiNote.Utils.Folder.DeleteFolder(String dirPath)<---
+
+
+****************************************************************
+
+应用版本：  5.1.12.64091
+记录时间：  2019-05-18 09:38:31,485 
+线程ID  ：  [12] 
+日志级别：  ERROR 
+出错类  ：  AllMessageLog property:[(null)] - 
+错误描述：  Error 
+网络连接失败，无法完成当前操作。错误代码(12)
+
+****************************************************************
+
+应用版本：  5.1.12.64091
+记录时间：  2019-05-18 10:12:55,756 
+线程ID  ：  [208] 
+日志级别：  ERROR 
+出错类  ：  AllMessageLog property:[(null)] - 
+错误描述：  Error 
+
+****************************************************************
+
+应用版本：  5.1.12.64091
+记录时间：  2019-05-18 10:13:24,871 
+线程ID  ：  [224] 
+日志级别：  ERROR 
+出错类  ：  AllMessageLog property:[(null)] - 
+错误描述：  Error 
+
+****************************************************************
+
+应用版本：  5.1.12.64091
+记录时间：  2019-05-18 10:14:49,814 
+线程ID  ：  [201] 
+日志级别：  ERROR 
+出错类  ：  AllMessageLog property:[(null)] - 
+错误描述：  Error 

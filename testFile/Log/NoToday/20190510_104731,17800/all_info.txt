@@ -1,0 +1,1158 @@
+﻿
+[2019-05-10 10:47:32,232][5.1.12.63002]Info [CoursewareCacheProvider] Start Init 
+[2019-05-10 10:47:32,234][5.1.12.63002]Info [CoursewareCacheProvider] End Init
+[2019-05-10 10:47:32,308][5.1.12.63002]Info [HardwareAccelarated] 可以选择的模式SoftPenMode,
+[2019-05-10 10:47:32,309][5.1.12.63002]Info [HardwareAccelarated] 配置的模式：默认
+[2019-05-10 10:47:32,309][5.1.12.63002]Info [HardwareAccelarated]默认模式SoftPenMode
+[2019-05-10 10:47:34,347][5.1.12.63002]Info [HTTP Request] GET https://edu.seewo.com/api/v1/school/status
+[2019-05-10 10:47:34,357][5.1.12.63002]Info [HTTP Request] GET https://edu.seewo.com/api/v1/remoteClass/check
+[2019-05-10 10:47:34,608][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/api/v1/school/status 200 4704 teacher info not found;version:5.1.12.63002;Id:db748b38c452425989e976ce270b4082
+[2019-05-10 10:47:34,608][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/api/v1/remoteClass/check 200 0 ;version:5.1.12.63002;Id:db748b38c452425989e976ce270b4082
+[2019-05-10 10:47:34,749][5.1.12.63002]Info [HTTP Request] GET https://edu.seewo.com/third/api/v1/beauty/science/auth
+[2019-05-10 10:47:34,757][5.1.12.63002]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-10 10:47:34,763][5.1.12.63002]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-10 10:47:34,770][5.1.12.63002]Info [DataPackage] Courseware RemoteId is NullOrWhiteSpace
+[2019-05-10 10:47:34,774][5.1.12.63002]Info [HTTP Request] GET https://edu.seewo.com/api/v1/user/property?name=DisplaySetting
+[2019-05-10 10:47:34,776][5.1.12.63002]Info [HTTP Request] GET https://edu.seewo.com/api/v2/capsule/entry
+[2019-05-10 10:47:34,779][5.1.12.63002]Info [HTTP Request] POST https://edu.seewo.com/third/api/v1/course/nb/login
+[2019-05-10 10:47:34,821][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/third/api/v1/beauty/science/auth 200
+[2019-05-10 10:47:34,828][5.1.12.63002]Info [HTTP Request] GET https://edu.seewo.com/api/v1/exam/check/entry
+[2019-05-10 10:47:34,835][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/api/v1/user/property?name=DisplaySetting 200 4301 user property not found;version:5.1.12.63002;Id:db748b38c452425989e976ce270b4082
+[2019-05-10 10:47:34,840][5.1.12.63002]Info [HTTP Request] GET https://edu.seewo.com/api/v1/user/property?name=EditingSetting
+[2019-05-10 10:47:34,898][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/api/v1/exam/check/entry 200 0 ;version:5.1.12.63002;Id:db748b38c452425989e976ce270b4082
+[2019-05-10 10:47:34,916][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/api/v1/user/property?name=EditingSetting 200 4301 user property not found;version:5.1.12.63002;Id:db748b38c452425989e976ce270b4082
+[2019-05-10 10:47:34,943][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/api/v2/capsule/entry 200 0 ;version:5.1.12.63002;Id:db748b38c452425989e976ce270b4082
+[2019-05-10 10:47:34,965][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/res/App.config 200
+[2019-05-10 10:47:34,980][5.1.12.63002]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-10 10:47:34,981][5.1.12.63002]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-10 10:47:34,987][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"ChangeUserInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"UserId\":\"13622906731\",\"NickName\":\"阿拉伯字母\",\"StageId\":\"CodeSchoolStage_3\",\"SubjectId\":\"CodeCourseSubject_99\",\"StageName\":\"其他\",\"SubjectName\":\"其他\",\"ResourceId\":\"db748b38c452425989e976ce270b4082\"}"}
+[2019-05-10 10:47:34,987][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-10 10:47:34,988][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"ChangeUserInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"UserId\":\"13622906731\",\"NickName\":\"阿拉伯字母\",\"StageId\":\"CodeSchoolStage_3\",\"SubjectId\":\"CodeCourseSubject_99\",\"StageName\":\"其他\",\"SubjectName\":\"其他\",\"ResourceId\":\"db748b38c452425989e976ce270b4082\"}"}
+[2019-05-10 10:47:35,014][5.1.12.63002]Info [Mobile] shell send message to cloud  UpdateShellState 103 : {"id":"","name":null,"parentid":null,"state":0,"sync":false,"version":0}
+[2019-05-10 10:47:35,041][5.1.12.63002]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-10 10:47:35,062][5.1.12.63002]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-10 10:47:35,090][5.1.12.63002]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-10 10:47:35,096][5.1.12.63002]Info [HTTP Response] POST https://edu.seewo.com/third/api/v1/course/nb/login 200
+[2019-05-10 10:47:35,715][5.1.12.63002]Info Client receive server message {"Header":{"Type":3,"Id":"ChangeUserInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"UserId\":\"13622906731\",\"NickName\":\"阿拉伯字母\",\"StageId\":\"CodeSchoolStage_3\",\"SubjectId\":\"CodeCourseSubject_99\",\"StageName\":\"其他\",\"SubjectName\":\"其他\",\"ResourceId\":\"db748b38c452425989e976ce270b4082\"}"}
+[2019-05-10 10:47:35,739][5.1.12.63002]Info [TimeCapsule][EnvironmentDetection] 加入信鸽状态：False.
+[2019-05-10 10:47:35,739][5.1.12.63002]Info [TimeCapsule][EnvironmentDetection] 用户等级状态：False.
+[2019-05-10 10:47:36,853][5.1.12.63002]Info [HTTP Request] GET https://edu.seewo.com/api/v1/message/update?lastCreateTime=1480907955000
+[2019-05-10 10:47:36,937][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/api/v1/message/update?lastCreateTime=1480907955000 200 0 ok;version:5.1.12.63002;Id:db748b38c452425989e976ce270b4082
+[2019-05-10 10:47:37,074][5.1.12.63002]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-10 10:47:38,735][5.1.12.63002]Info [HTTP Response] GET https://edu.seewo.com/api/v1/pushphoto/latest 200
+[2019-05-10 10:50:34,768][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 10:50:34,783][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 10:50:34,787][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 10:50:34,793][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 10:50:34,798][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"fe2fc228-3525-4760-9258-ec64a7e178bf"},"Content":""}
+[2019-05-10 10:50:34,799][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 10:50:34,810][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"d7ccd608-a546-485e-bbbc-a5db49df0a82"},"Content":""}
+[2019-05-10 10:53:34,794][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 10:53:34,795][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 10:53:34,796][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 10:53:34,797][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 10:53:34,799][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 10:53:34,802][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ad9b7b06-b267-4308-a54d-e01de26100da"},"Content":""}
+[2019-05-10 10:53:34,803][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a22d38bb-62bc-41bd-99df-8f1e1298bf6e"},"Content":""}
+[2019-05-10 10:56:34,792][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 10:56:34,792][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 10:56:34,792][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 10:56:34,793][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 10:56:34,793][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 10:56:34,794][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"3627301a-3a7d-4561-9c82-6bb9cc456857"},"Content":""}
+[2019-05-10 10:56:34,795][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"52d34f5b-3e09-4c34-a59d-bb99f15771ff"},"Content":""}
+[2019-05-10 10:57:32,329][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 1 more than TcpIpcService
+[2019-05-10 10:59:34,793][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 10:59:34,794][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 10:59:34,795][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 10:59:34,796][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 10:59:34,798][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 10:59:34,800][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"085f9848-f853-4a19-a88c-057244c560d2"},"Content":""}
+[2019-05-10 10:59:34,802][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e303b244-c536-4e7f-aca5-37867e6e103a"},"Content":""}
+[2019-05-10 11:02:34,796][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:02:34,797][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:02:34,798][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:02:34,799][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:02:34,801][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:02:34,804][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"424628f2-0293-4aaa-8de5-33397e4eab10"},"Content":""}
+[2019-05-10 11:02:34,805][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"7e893dce-4ac2-4b77-8f79-2988b860dfe6"},"Content":""}
+[2019-05-10 11:05:34,795][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:05:34,796][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:05:34,797][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:05:34,798][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:05:34,800][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:05:34,802][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"98cee8e5-f06e-46b2-b28c-0395e2fd52fd"},"Content":""}
+[2019-05-10 11:05:34,804][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"cbef6121-0e58-441b-9bc1-d0b58b6ca974"},"Content":""}
+[2019-05-10 11:07:32,324][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 11:08:34,795][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:08:34,797][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:08:34,798][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:08:34,799][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:08:34,800][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:08:34,802][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"686aaa85-8c52-4e2e-8a7e-5f2a9e95a409"},"Content":""}
+[2019-05-10 11:08:34,804][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"4fa5b08e-b5eb-48d7-9c87-08708166d561"},"Content":""}
+[2019-05-10 11:11:34,794][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:11:34,795][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:11:34,796][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:11:34,797][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:11:34,799][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:11:34,801][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8490266e-a0a8-4906-a57a-425b3f852e27"},"Content":""}
+[2019-05-10 11:11:34,803][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b6164ba4-64e8-41f8-a698-f9dc2d48d9bf"},"Content":""}
+[2019-05-10 11:14:34,794][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:14:34,795][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:14:34,796][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:14:34,797][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:14:34,799][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:14:34,803][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"fab03ccd-f688-46a5-b6a4-f5c7452bf61c"},"Content":""}
+[2019-05-10 11:14:34,804][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"16a522cf-e8e1-4e40-9f76-cbd07a0f2d81"},"Content":""}
+[2019-05-10 11:17:32,324][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 11:17:34,793][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:17:34,794][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:17:34,794][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:17:34,794][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:17:34,795][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:17:34,795][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"032f4174-b1ee-4da4-b457-4c8531d62e48"},"Content":""}
+[2019-05-10 11:17:34,796][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"77f99e5a-fab0-4c0c-9fd9-0f362ac71013"},"Content":""}
+[2019-05-10 11:20:34,799][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:20:34,800][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:20:34,801][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:20:34,802][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:20:34,804][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:20:34,807][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ec53405a-d446-469d-b900-28e556be6ad8"},"Content":""}
+[2019-05-10 11:20:34,808][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1970d44b-8f6f-4ee4-bef2-9eab696956e5"},"Content":""}
+[2019-05-10 11:23:34,792][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:23:34,793][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:23:34,793][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:23:34,794][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:23:34,795][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:23:34,796][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f04ba542-9607-4876-9cd3-b28e6a7d7420"},"Content":""}
+[2019-05-10 11:23:34,797][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"4d3a1662-f6eb-4736-b215-ebdc2e389fcd"},"Content":""}
+[2019-05-10 11:26:34,792][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:26:34,792][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:26:34,793][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:26:34,793][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:26:34,793][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:26:34,794][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ba414da8-439f-427b-8e83-d25d4609fd5e"},"Content":""}
+[2019-05-10 11:26:34,795][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"61054a7a-420d-4e46-a5d9-8b0da203a09b"},"Content":""}
+[2019-05-10 11:27:32,324][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 11:29:34,795][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:29:34,795][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:29:34,796][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:29:34,796][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:29:34,797][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:29:34,798][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"64621fb0-041c-450b-959d-f1c772ab281c"},"Content":""}
+[2019-05-10 11:29:34,799][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"eb9ee642-17c8-413b-b7db-5cda3cc2879c"},"Content":""}
+[2019-05-10 11:32:34,796][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:32:34,797][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:32:34,798][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:32:34,799][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:32:34,801][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:32:34,803][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"d3640eb1-5739-4f4c-8c3c-a4c58389bce1"},"Content":""}
+[2019-05-10 11:32:34,805][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"56da80e6-64bc-4e7f-abc0-accf1fb76b31"},"Content":""}
+[2019-05-10 11:35:34,800][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:35:34,801][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:35:34,802][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:35:34,803][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:35:34,805][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:35:34,808][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"85b13a1e-02fa-401d-b568-629bfd42b27a"},"Content":""}
+[2019-05-10 11:35:34,809][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"87c29afc-e7c7-44c8-bb94-376a1ce22290"},"Content":""}
+[2019-05-10 11:37:32,326][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 11:38:34,814][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:38:34,816][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:38:34,817][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:38:34,818][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:38:34,819][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:38:34,822][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"7e65cc26-27a8-4b6c-9064-f3d9b2e42e46"},"Content":""}
+[2019-05-10 11:38:34,824][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"6df51168-1af4-4516-9f68-b24bbcbf46a3"},"Content":""}
+[2019-05-10 11:41:34,814][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:41:34,815][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:41:34,816][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:41:34,817][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:41:34,819][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:41:34,821][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8bc003f7-338c-4377-bf5a-542e7e6eb5d5"},"Content":""}
+[2019-05-10 11:41:34,823][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"18a9dd34-d0cb-4915-ade2-9f09853231a5"},"Content":""}
+[2019-05-10 11:44:34,810][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:44:34,811][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:44:34,812][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:44:34,813][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:44:34,815][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:44:34,817][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"343ff177-af72-4998-9e88-61d678562272"},"Content":""}
+[2019-05-10 11:44:34,819][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"0322f3cf-d12c-4538-8f34-cf69c2ba51cb"},"Content":""}
+[2019-05-10 11:47:32,325][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 11:47:34,807][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:47:34,807][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:47:34,807][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:47:34,807][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:47:34,808][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:47:34,808][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b72abba6-a57b-42ae-91c9-a915e32dbcda"},"Content":""}
+[2019-05-10 11:47:34,809][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"7553881a-af26-40e2-8568-46d432ed91dd"},"Content":""}
+[2019-05-10 11:50:34,810][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:50:34,810][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:50:34,811][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:50:34,811][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:50:34,811][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:50:34,812][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"2571e664-11c2-4a30-9d73-d60d4a032b4a"},"Content":""}
+[2019-05-10 11:50:34,813][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"10b793a3-d370-42ab-977f-d4e47122b613"},"Content":""}
+[2019-05-10 11:53:34,813][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:53:34,813][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:53:34,813][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:53:34,814][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:53:34,815][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:53:34,816][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8d8f579b-4d38-430a-a3fc-14e9fd5285ca"},"Content":""}
+[2019-05-10 11:53:34,816][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e1d6bcbc-ae1d-47c1-9cfb-c7b207350cff"},"Content":""}
+[2019-05-10 11:56:34,808][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:56:34,808][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:56:34,808][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:56:34,809][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:56:34,809][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:56:34,810][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"4d000643-7583-459f-a2d9-de3bf2af1e46"},"Content":""}
+[2019-05-10 11:56:34,810][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"02c1bc24-15ec-460c-9129-75f1de4af9fe"},"Content":""}
+[2019-05-10 11:57:32,326][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 11:59:34,810][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 11:59:34,810][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 11:59:34,811][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 11:59:34,811][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 11:59:34,812][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 11:59:34,814][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"93197847-5a0a-4265-9ee9-e173a3e3d730"},"Content":""}
+[2019-05-10 11:59:34,815][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"cfa194bf-a737-4977-ab78-5d5cf74b0933"},"Content":""}
+[2019-05-10 12:02:34,810][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:02:34,811][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:02:34,812][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:02:34,813][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:02:34,815][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:02:34,817][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f9036ccd-95e9-4ced-8e20-c1206def829e"},"Content":""}
+[2019-05-10 12:02:34,819][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"23bec9f2-8d1f-4654-ae15-b93c7c684cb0"},"Content":""}
+[2019-05-10 12:05:34,816][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:05:34,817][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:05:34,818][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:05:34,819][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:05:34,820][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:05:34,823][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"151c0b42-776a-4309-b0a7-798fd6ec26cd"},"Content":""}
+[2019-05-10 12:05:34,824][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"41d267a8-f8c8-4a77-a09e-e1b33ed78902"},"Content":""}
+[2019-05-10 12:07:32,337][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 12:08:34,825][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:08:34,825][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:08:34,825][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:08:34,825][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:08:34,826][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:08:34,826][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a2b743d3-9646-4251-94d6-942354a39dae"},"Content":""}
+[2019-05-10 12:08:34,827][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"2fe53ff2-5a21-4cf3-a745-811a0e9ea04c"},"Content":""}
+[2019-05-10 12:11:34,825][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:11:34,827][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:11:34,828][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:11:34,828][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:11:34,829][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:11:34,832][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1fc2e242-18ec-444e-ac7a-ba9114e0314a"},"Content":""}
+[2019-05-10 12:11:34,834][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"fdc2087b-c71f-4ff4-8c03-256245f6cb70"},"Content":""}
+[2019-05-10 12:14:34,825][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:14:34,826][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:14:34,827][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:14:34,828][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:14:34,830][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:14:34,833][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e817cb5e-9c71-46c2-8ad2-ad40eb735e3a"},"Content":""}
+[2019-05-10 12:14:34,834][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"36e35f12-1031-46eb-963c-56a9465a9bb8"},"Content":""}
+[2019-05-10 12:17:32,338][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 12:17:34,825][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:17:34,826][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:17:34,827][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:17:34,828][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:17:34,829][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:17:34,832][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"5238a2cc-ff1a-4a14-8963-9e3f0c884be9"},"Content":""}
+[2019-05-10 12:17:34,833][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1a4ebcdd-8eca-45fa-8137-2cb9df8b2686"},"Content":""}
+[2019-05-10 12:20:34,826][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:20:34,827][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:20:34,828][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:20:34,829][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:20:34,831][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:20:34,833][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"045a9631-2b11-466f-8e2e-a7f785f241a7"},"Content":""}
+[2019-05-10 12:20:34,835][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"587c5db5-6166-41a0-bd1c-51faefbdbf30"},"Content":""}
+[2019-05-10 12:23:34,823][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:23:34,823][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:23:34,823][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:23:34,823][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:23:34,824][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:23:34,825][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b560f291-88eb-46c1-b6f2-0be74d08c9a9"},"Content":""}
+[2019-05-10 12:23:34,825][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"4ffd4e53-d145-4c05-b001-f9aef168d2dd"},"Content":""}
+[2019-05-10 12:26:34,826][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:26:34,827][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:26:34,827][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:26:34,828][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:26:34,829][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:26:34,831][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b9ae8e4a-d20e-4aba-b85b-e9824290a163"},"Content":""}
+[2019-05-10 12:26:34,831][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1dd094a9-1af6-4abc-ac7d-17863be525fb"},"Content":""}
+[2019-05-10 12:27:32,338][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 12:29:34,828][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:29:34,829][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:29:34,830][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:29:34,831][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:29:34,832][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:29:34,835][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"6488b7c0-f6a7-4944-bbb6-df166839fcc2"},"Content":""}
+[2019-05-10 12:29:34,837][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"62d18eeb-12b4-4761-a3f4-439839e211b0"},"Content":""}
+[2019-05-10 12:32:34,828][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:32:34,829][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:32:34,830][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:32:34,831][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:32:34,833][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:32:34,836][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"431d9619-3fca-4570-9701-3d6d85d3170e"},"Content":""}
+[2019-05-10 12:32:34,839][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"425580ca-16bf-4798-8b04-c5eebede002f"},"Content":""}
+[2019-05-10 12:35:34,830][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:35:34,831][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:35:34,833][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:35:34,834][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:35:34,836][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:35:34,838][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"84f3e43f-ee3a-4d63-9331-25d449e9b2e5"},"Content":""}
+[2019-05-10 12:35:34,843][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"af1310af-db6f-4c07-b0cb-69022d4c3729"},"Content":""}
+[2019-05-10 12:37:32,340][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 12:38:34,840][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:38:34,840][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:38:34,840][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:38:34,841][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:38:34,842][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:38:34,843][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"2fc0d9a9-9d73-43cf-8fa1-40547365fe8b"},"Content":""}
+[2019-05-10 12:38:34,843][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1e4f7f86-b7ed-4e31-a0c1-6d70a39826c6"},"Content":""}
+[2019-05-10 12:41:34,844][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:41:34,844][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:41:34,844][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:41:34,845][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:41:34,845][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:41:34,846][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"fb7546aa-bca0-479c-bba9-5b9e8d47a61c"},"Content":""}
+[2019-05-10 12:41:34,847][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"4f06f842-d8ba-4ea9-bc6c-d82cf70bf710"},"Content":""}
+[2019-05-10 12:44:34,841][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:44:34,842][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:44:34,843][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:44:34,844][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:44:34,846][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:44:34,849][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"141fcdb5-1f6f-492a-b280-8875f0dbc3db"},"Content":""}
+[2019-05-10 12:44:34,851][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e582b87f-9763-425b-adf3-48f0e6692de3"},"Content":""}
+[2019-05-10 12:47:32,339][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 12:47:34,847][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:47:34,848][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:47:34,848][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:47:34,848][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:47:34,849][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:47:34,849][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"51a30e1e-4cf5-444b-96f9-42572d73074a"},"Content":""}
+[2019-05-10 12:47:34,850][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"95f3f07d-f7ec-488d-9107-0519ed340712"},"Content":""}
+[2019-05-10 12:50:34,846][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:50:34,846][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:50:34,846][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:50:34,846][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:50:34,847][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:50:34,848][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"35f1106b-69fb-46d3-bdd7-5ac40be28001"},"Content":""}
+[2019-05-10 12:50:34,848][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"2816a052-b983-44d9-ad35-2cc37ad06732"},"Content":""}
+[2019-05-10 12:53:34,840][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:53:34,840][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:53:34,841][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:53:34,841][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:53:34,842][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:53:34,843][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"c1dc0785-35d6-48de-8f11-a7effc295a3f"},"Content":""}
+[2019-05-10 12:53:34,844][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b7953109-6c3d-46a9-ba58-a57393d6e346"},"Content":""}
+[2019-05-10 12:56:34,842][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:56:34,844][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:56:34,845][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:56:34,845][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:56:34,847][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:56:34,850][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"3993a57f-5e2a-4181-bfc8-dca70bff60be"},"Content":""}
+[2019-05-10 12:56:34,851][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"c50145c2-a7c4-4f29-b94c-c7afed3f898f"},"Content":""}
+[2019-05-10 12:57:32,340][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 12:59:34,839][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 12:59:34,840][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 12:59:34,840][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 12:59:34,841][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 12:59:34,842][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 12:59:34,843][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"93e3ddbe-2f75-4e43-8a7a-d64ff00a1532"},"Content":""}
+[2019-05-10 12:59:34,844][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"55bb6887-6a92-4757-ae4c-19cf2b796253"},"Content":""}
+[2019-05-10 13:02:34,842][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:02:34,843][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:02:34,844][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:02:34,845][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:02:34,847][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:02:34,849][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"3b27133f-9dcf-4090-9f52-df37d3f358d3"},"Content":""}
+[2019-05-10 13:02:34,851][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"3f6b5f0d-cdcc-4c5e-85b8-c429d35870f6"},"Content":""}
+[2019-05-10 13:05:34,838][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:05:34,839][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:05:34,839][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:05:34,839][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:05:34,839][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:05:34,840][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"5ac91b80-85ee-4eda-927b-990efd9d7238"},"Content":""}
+[2019-05-10 13:05:34,841][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ef0a56f9-98b7-4eca-8d51-16982d9bfeb4"},"Content":""}
+[2019-05-10 13:07:32,341][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 13:08:34,838][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:08:34,838][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:08:34,838][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:08:34,839][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:08:34,839][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:08:34,840][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e1bf1c87-7a3e-4e57-9837-ed8074269380"},"Content":""}
+[2019-05-10 13:08:34,840][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8b8a8d29-42e7-406a-94f1-f2eee576286b"},"Content":""}
+[2019-05-10 13:11:34,841][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:11:34,842][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:11:34,843][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:11:34,844][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:11:34,846][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:11:34,849][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"928c0b82-0a1a-4c39-a5c4-14f824ea81d9"},"Content":""}
+[2019-05-10 13:11:34,850][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"4d1799d5-c17c-43de-a229-e36cb28ecc29"},"Content":""}
+[2019-05-10 13:14:34,846][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:14:34,847][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:14:34,848][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:14:34,849][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:14:34,851][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:14:34,853][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"745c2ab5-790f-460d-bfed-a90d92f92fca"},"Content":""}
+[2019-05-10 13:14:34,855][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8dd34c71-27ba-4121-80aa-614248e14c63"},"Content":""}
+[2019-05-10 13:17:32,342][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 13:17:34,846][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:17:34,847][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:17:34,848][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:17:34,849][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:17:34,850][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:17:34,853][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"c91f268e-213e-4bae-bcb7-fa9ed6dff584"},"Content":""}
+[2019-05-10 13:17:34,856][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f9fdde0f-b12f-4b95-9416-611f1cc78fc9"},"Content":""}
+[2019-05-10 13:20:34,851][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:20:34,852][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:20:34,853][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:20:34,854][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:20:34,856][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:20:34,858][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a914e32a-5680-4218-b7d5-a6e7096173d2"},"Content":""}
+[2019-05-10 13:20:34,860][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"33532069-2afd-4755-ae22-a6caa2e60b04"},"Content":""}
+[2019-05-10 13:23:34,856][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:23:34,857][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:23:34,857][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:23:34,858][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:23:34,858][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:23:34,860][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"bbeefef2-3107-4329-9684-808ad13bcf7e"},"Content":""}
+[2019-05-10 13:23:34,861][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"0ab0d685-94b0-4ead-aaf0-2adca971c740"},"Content":""}
+[2019-05-10 13:26:34,862][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:26:34,862][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:26:34,863][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:26:34,864][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:26:34,864][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:26:34,866][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"5fe13694-ff68-4c63-a8d2-cfe63ef3c543"},"Content":""}
+[2019-05-10 13:26:34,867][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"199139c0-ae21-401a-a469-6ca2ad6074fe"},"Content":""}
+[2019-05-10 13:27:32,343][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 13:29:34,857][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:29:34,857][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:29:34,857][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:29:34,858][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:29:34,858][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:29:34,859][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"753037e7-25df-47d9-821a-4084308a3326"},"Content":""}
+[2019-05-10 13:29:34,859][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"27e7ba20-603e-4773-9646-b0f50cb48120"},"Content":""}
+[2019-05-10 13:32:34,860][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:32:34,861][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:32:34,861][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:32:34,861][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:32:34,862][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:32:34,862][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"10cdc628-8f9f-487d-a46c-5ee2026913b3"},"Content":""}
+[2019-05-10 13:32:34,863][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"54d89356-0d5c-41fc-8626-dcdcd0911a68"},"Content":""}
+[2019-05-10 13:35:34,855][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:35:34,855][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:35:34,855][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:35:34,856][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:35:34,856][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:35:34,857][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ac07ff2b-a79b-4a0b-9c6c-3a5455c5ebc0"},"Content":""}
+[2019-05-10 13:35:34,857][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"6824812f-ff82-453e-a9ed-5a083e5c1749"},"Content":""}
+[2019-05-10 13:37:32,343][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 13:38:34,856][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:38:34,857][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:38:34,857][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:38:34,858][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:38:34,859][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:38:34,861][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"241200de-4899-44ca-89ad-c7fcf2b29a13"},"Content":""}
+[2019-05-10 13:38:34,862][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"44765e77-26ae-493c-abed-62cc627de19b"},"Content":""}
+[2019-05-10 13:41:34,860][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:41:34,862][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:41:34,863][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:41:34,864][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:41:34,865][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:41:34,868][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"6dcd877e-d895-459f-9dc1-d414be6e8e2e"},"Content":""}
+[2019-05-10 13:41:34,869][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"5c280129-d3a3-4e6e-bfa1-0527d86ff03b"},"Content":""}
+[2019-05-10 13:44:34,863][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:44:34,864][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:44:34,865][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:44:34,866][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:44:34,868][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:44:34,871][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"5d46e965-e263-4695-874b-b1859aa57e3b"},"Content":""}
+[2019-05-10 13:44:34,874][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"04818e01-4789-49c6-93a6-2bd457436d0e"},"Content":""}
+[2019-05-10 13:47:32,343][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 13:47:34,877][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:47:34,877][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:47:34,877][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:47:34,878][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:47:34,878][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:47:34,879][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"0a96a797-d1f2-4ad9-87a7-dc897b6dd9e5"},"Content":""}
+[2019-05-10 13:47:34,880][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"90645f61-a7f2-46b4-8493-82a9d2843a40"},"Content":""}
+[2019-05-10 13:50:34,872][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:50:34,874][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:50:34,875][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:50:34,876][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:50:34,878][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:50:34,881][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"098d4300-ee3f-4fe3-b053-acdc889e14cf"},"Content":""}
+[2019-05-10 13:50:34,883][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"9342c113-3f05-41d2-a29c-2fa44e16991f"},"Content":""}
+[2019-05-10 13:53:34,878][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:53:34,878][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:53:34,879][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:53:34,879][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:53:34,880][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:53:34,882][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"90c0b850-81e2-46e9-bf63-2add7322f984"},"Content":""}
+[2019-05-10 13:53:34,882][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b0d7da50-63c7-4de4-94ac-7e834964c473"},"Content":""}
+[2019-05-10 13:56:34,878][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:56:34,880][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:56:34,881][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:56:34,882][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:56:34,883][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:56:34,886][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"57098cc0-6d94-42b4-8459-c5065494fe08"},"Content":""}
+[2019-05-10 13:56:34,887][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e4e76ba0-57e7-4448-ac1d-cf8b2c356d86"},"Content":""}
+[2019-05-10 13:57:32,344][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 13:59:34,888][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 13:59:34,889][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 13:59:34,890][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 13:59:34,891][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 13:59:34,893][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 13:59:34,895][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"70ebb64b-c954-492a-9c5f-4d792b2031c1"},"Content":""}
+[2019-05-10 13:59:34,896][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"9138dfff-a03f-446d-b76e-fbf4ea6b14bd"},"Content":""}
+[2019-05-10 14:02:34,887][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:02:34,887][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:02:34,888][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:02:34,889][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:02:34,890][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:02:34,891][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"cae15c73-9760-418f-b1eb-3d81a4e7f052"},"Content":""}
+[2019-05-10 14:02:34,892][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"fb044cee-d34c-41d4-ac16-3843ae116313"},"Content":""}
+[2019-05-10 14:05:34,889][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:05:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:05:34,891][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:05:34,892][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:05:34,893][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:05:34,896][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"42afcd26-8572-4607-a645-45a9e76e75d2"},"Content":""}
+[2019-05-10 14:05:34,897][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"60dda2be-e03b-43a9-864d-96672504f0ec"},"Content":""}
+[2019-05-10 14:07:32,346][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 14:08:34,889][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:08:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:08:34,891][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:08:34,892][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:08:34,894][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:08:34,897][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ef304363-1aca-4e11-bd5e-dccc2bc969b4"},"Content":""}
+[2019-05-10 14:08:34,898][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"bc46e610-1afb-44fe-bf60-5f5494626b3a"},"Content":""}
+[2019-05-10 14:11:34,889][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:11:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:11:34,891][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:11:34,891][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:11:34,892][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:11:34,894][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"456faeac-5b3e-4f37-87e9-342d8cb0889d"},"Content":""}
+[2019-05-10 14:11:34,895][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f2bd3d86-4709-4679-b3ac-027851731872"},"Content":""}
+[2019-05-10 14:14:34,889][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:14:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:14:34,891][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:14:34,892][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:14:34,893][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:14:34,896][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f9cad97a-6c09-4ef7-9a98-8b1a73ec9a50"},"Content":""}
+[2019-05-10 14:14:34,898][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"983a6b84-8246-442b-833b-8fe15fdd5c46"},"Content":""}
+[2019-05-10 14:17:32,345][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 14:17:34,890][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:17:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:17:34,890][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:17:34,890][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:17:34,891][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:17:34,892][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"781a5bcb-3660-4a45-bb0b-0794b706ad09"},"Content":""}
+[2019-05-10 14:17:34,892][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"6d7f2ec1-71a4-483c-8868-1e7c3ae5ec40"},"Content":""}
+[2019-05-10 14:20:34,887][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:20:34,889][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:20:34,890][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:20:34,891][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:20:34,892][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:20:34,895][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f04cb233-26e0-4c9b-be53-fc0e157e86ca"},"Content":""}
+[2019-05-10 14:20:34,897][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f5033cc8-b0c8-4d4c-8274-7d2c205fd29f"},"Content":""}
+[2019-05-10 14:23:34,888][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:23:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:23:34,891][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:23:34,891][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:23:34,893][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:23:34,896][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"096090aa-6c14-4c5a-bcfb-15220b5b4de7"},"Content":""}
+[2019-05-10 14:23:34,897][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1038b147-5566-406c-8539-57a4343566a3"},"Content":""}
+[2019-05-10 14:26:34,890][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:26:34,891][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:26:34,892][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:26:34,893][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:26:34,895][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:26:34,898][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"0fac02e0-b4df-4d68-a926-e2436f9c088f"},"Content":""}
+[2019-05-10 14:26:34,901][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8f2a0894-7f65-471d-a39b-962bf5d3ce19"},"Content":""}
+[2019-05-10 14:27:32,353][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 14:29:34,888][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:29:34,889][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:29:34,890][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:29:34,891][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:29:34,893][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:29:34,895][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a6e3b3dd-7a95-43c5-b9c2-1a4d41137fa7"},"Content":""}
+[2019-05-10 14:29:34,897][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"48d9c2e8-83da-437b-83b1-0a701d30453b"},"Content":""}
+[2019-05-10 14:32:34,890][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:32:34,891][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:32:34,892][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:32:34,893][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:32:34,895][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:32:34,897][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"334ae9a4-04b2-484e-9e71-d9f4e5e24854"},"Content":""}
+[2019-05-10 14:32:34,899][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"48ba1db8-0425-4a9a-8c7d-eddb8c7472c1"},"Content":""}
+[2019-05-10 14:35:34,885][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:35:34,885][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:35:34,885][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:35:34,885][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:35:34,886][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:35:34,887][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"04a7031f-277c-463b-83be-042ae3d9c0d6"},"Content":""}
+[2019-05-10 14:35:34,887][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a6584dfa-bf33-4eba-a2f4-9216abee3977"},"Content":""}
+[2019-05-10 14:37:32,356][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 14:38:34,889][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:38:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:38:34,891][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:38:34,892][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:38:34,893][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:38:34,896][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"664b52e6-44c7-4324-af82-6bb423149ca9"},"Content":""}
+[2019-05-10 14:38:34,897][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a6e9546f-83f4-4e92-b349-be396b65741e"},"Content":""}
+[2019-05-10 14:41:34,888][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:41:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:41:34,891][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:41:34,892][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:41:34,893][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:41:34,896][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"952eba90-1dc2-45e9-ad2c-2131a82fe6e8"},"Content":""}
+[2019-05-10 14:41:34,899][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b5243d4c-e0d6-4605-a9a9-cb777e661a1d"},"Content":""}
+[2019-05-10 14:44:34,887][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:44:34,888][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:44:34,889][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:44:34,890][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:44:34,892][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:44:34,894][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"18f96c75-1d73-4385-bd1f-d95423055991"},"Content":""}
+[2019-05-10 14:44:34,896][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"982d8236-c176-4c87-8a01-e81d04e9b244"},"Content":""}
+[2019-05-10 14:47:32,356][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 14:47:34,891][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:47:34,892][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:47:34,893][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:47:34,894][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:47:34,895][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:47:34,897][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"24bf0e68-a8bb-4072-a7d6-eb121102a87b"},"Content":""}
+[2019-05-10 14:47:34,899][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"2fb75ec2-f0ec-44b3-9e51-e0e856c00acd"},"Content":""}
+[2019-05-10 14:50:34,885][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:50:34,885][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:50:34,886][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:50:34,886][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:50:34,886][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:50:34,887][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e2051d25-0121-4979-883b-f231fe82b3af"},"Content":""}
+[2019-05-10 14:50:34,888][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e8362a30-371d-40ad-96aa-b92466352fb8"},"Content":""}
+[2019-05-10 14:53:34,889][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:53:34,890][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:53:34,891][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:53:34,892][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:53:34,894][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:53:34,896][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"57e350b4-9087-428c-a674-f989b850bc28"},"Content":""}
+[2019-05-10 14:53:34,898][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"514cdd44-18d2-4369-b724-8560a1f7893c"},"Content":""}
+[2019-05-10 14:56:34,891][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:56:34,892][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:56:34,893][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:56:34,894][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:56:34,896][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:56:34,898][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"590b580a-9503-405f-bec9-e9f61474ce5e"},"Content":""}
+[2019-05-10 14:56:34,900][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"05f69c78-22fb-4b28-89f0-a12b797e49dc"},"Content":""}
+[2019-05-10 14:57:32,357][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 14:59:34,890][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 14:59:34,891][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 14:59:34,893][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 14:59:34,894][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 14:59:34,897][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 14:59:34,899][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"4aa88d77-4044-4e24-82e6-75fa669d58db"},"Content":""}
+[2019-05-10 14:59:34,902][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b2a31e72-c69e-4c5e-8594-81ce9bfdfe49"},"Content":""}
+[2019-05-10 15:02:34,895][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:02:34,896][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:02:34,897][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:02:34,898][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:02:34,900][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:02:34,902][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"51936172-2fac-4ec5-81df-8e63ce7954b6"},"Content":""}
+[2019-05-10 15:02:34,904][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"fe9322bf-8b65-4c01-bdca-62d16e713774"},"Content":""}
+[2019-05-10 15:05:34,907][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:05:34,908][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:05:34,912][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:05:34,913][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:05:34,915][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:05:34,918][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ccfd1186-5f69-4b68-9953-dbf79f80d89d"},"Content":""}
+[2019-05-10 15:05:34,919][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"542c01f9-5340-408a-8ca0-7fe8aced408e"},"Content":""}
+[2019-05-10 15:07:32,357][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 15:08:34,920][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:08:34,921][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:08:34,922][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:08:34,922][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:08:34,924][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:08:34,926][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"31e8cf00-df44-47a6-aa4e-4de9f1b11fe0"},"Content":""}
+[2019-05-10 15:08:34,927][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b3f96c3f-d09f-4c78-96c9-68ac00dfe3d6"},"Content":""}
+[2019-05-10 15:11:34,926][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:11:34,927][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:11:34,928][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:11:34,929][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:11:34,931][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:11:34,934][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"7e96a5b6-0d73-469a-9e46-ec88e0612cbf"},"Content":""}
+[2019-05-10 15:11:34,935][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"784e0e9f-b847-4219-b93f-ebd727f8efff"},"Content":""}
+[2019-05-10 15:14:34,935][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:14:34,936][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:14:34,936][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:14:34,937][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:14:34,938][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:14:34,940][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"4ff207cd-8186-4d24-8412-0eaeec4ee23d"},"Content":""}
+[2019-05-10 15:14:34,941][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"dd8d67e9-0c64-4577-b8d7-d89f309a0183"},"Content":""}
+[2019-05-10 15:17:32,359][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 15:17:34,936][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:17:34,937][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:17:34,938][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:17:34,939][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:17:34,940][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:17:34,943][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"2f225337-0c34-4cf0-86dd-89898b0f8963"},"Content":""}
+[2019-05-10 15:17:34,944][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1508610f-37c3-4033-8a22-90d1d4ba776f"},"Content":""}
+[2019-05-10 15:20:34,942][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:20:34,943][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:20:34,944][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:20:34,945][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:20:34,947][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:20:34,949][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"d0f95424-bfe6-4b81-815f-62ca252be181"},"Content":""}
+[2019-05-10 15:20:34,952][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"023b324c-85bc-4095-bc78-caf6121a2975"},"Content":""}
+[2019-05-10 15:23:34,949][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:23:34,949][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:23:34,950][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:23:34,951][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:23:34,952][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:23:34,953][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"48632c7b-cd72-47cf-b2da-74f7ece6f7d3"},"Content":""}
+[2019-05-10 15:23:34,954][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"2689c98e-fbec-4cce-ab7e-1aeda082bd1b"},"Content":""}
+[2019-05-10 15:26:34,947][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:26:34,947][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:26:34,948][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:26:34,948][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:26:34,948][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:26:34,949][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"3506ee61-1b3b-442e-9e62-b409a18c350c"},"Content":""}
+[2019-05-10 15:26:34,949][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a7a2bf13-5e7f-4cf8-8ef6-1d054f8fcdb3"},"Content":""}
+[2019-05-10 15:27:32,359][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 15:29:34,954][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:29:34,955][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:29:34,956][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:29:34,957][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:29:34,959][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:29:34,962][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8ff76a44-29e2-4e02-a5de-3c10bd7588a3"},"Content":""}
+[2019-05-10 15:29:34,967][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f2353bb6-1426-40b1-93fe-68e6a7917ee5"},"Content":""}
+[2019-05-10 15:32:34,949][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:32:34,951][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:32:34,952][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:32:34,953][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:32:34,954][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:32:34,957][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b80b02ad-9f81-4245-aded-f2b4150410d9"},"Content":""}
+[2019-05-10 15:32:34,958][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"edaaf335-71f8-43ec-8847-3a938977462b"},"Content":""}
+[2019-05-10 15:35:34,955][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:35:34,956][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:35:34,957][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:35:34,958][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:35:34,960][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:35:34,962][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"33de0749-2b2b-4993-a8ea-f4f2b5f8f964"},"Content":""}
+[2019-05-10 15:35:34,964][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"334e2768-b41e-450b-9489-2e97bdeaf13e"},"Content":""}
+[2019-05-10 15:37:32,357][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 15:38:34,952][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:38:34,953][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:38:34,954][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:38:34,955][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:38:34,956][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:38:34,958][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"cb634137-68c8-4e9d-b9f2-31e3cf57c74b"},"Content":""}
+[2019-05-10 15:38:34,959][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b65af1f7-454d-4464-aee2-7caa293da183"},"Content":""}
+[2019-05-10 15:41:34,951][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:41:34,952][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:41:34,952][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:41:34,953][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:41:34,954][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:41:34,956][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"63aae0ef-7d84-4edc-9714-70a52e772afc"},"Content":""}
+[2019-05-10 15:41:34,956][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f42b7b3e-8c8f-4208-b1c4-b5442fc986a6"},"Content":""}
+[2019-05-10 15:44:34,950][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:44:34,951][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:44:34,952][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:44:34,953][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:44:34,955][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:44:34,957][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"83633dc1-7dc4-406d-87fb-fbe586fd53d4"},"Content":""}
+[2019-05-10 15:44:34,959][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1ded21e1-126f-4757-8b83-388258c8ff38"},"Content":""}
+[2019-05-10 15:47:32,360][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 15:47:34,948][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:47:34,949][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:47:34,949][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:47:34,949][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:47:34,949][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:47:34,950][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"41be04f9-d702-4097-895e-fcd49f44dbf2"},"Content":""}
+[2019-05-10 15:47:34,951][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"460c39cc-6f13-453b-a5ef-bcf7420f0e63"},"Content":""}
+[2019-05-10 15:50:34,948][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:50:34,948][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:50:34,948][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:50:34,949][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:50:34,949][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:50:34,950][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ee087881-0fdf-4162-bdeb-0223377a145a"},"Content":""}
+[2019-05-10 15:50:34,950][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"160bb352-cf93-48e6-957f-b3bf97ce3da5"},"Content":""}
+[2019-05-10 15:53:34,948][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:53:34,949][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:53:34,949][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:53:34,949][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:53:34,949][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:53:34,950][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"634a89b3-d9ed-42da-8eb8-a728d78ffa80"},"Content":""}
+[2019-05-10 15:53:34,951][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"7e97aeae-eb79-40e4-bca7-9d1716f88515"},"Content":""}
+[2019-05-10 15:56:34,948][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:56:34,948][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:56:34,948][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:56:34,949][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:56:34,949][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:56:34,950][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"fed38120-6753-4bc1-b718-b918fd273ffb"},"Content":""}
+[2019-05-10 15:56:34,950][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"56d22337-acea-412b-b485-893e243736f9"},"Content":""}
+[2019-05-10 15:57:32,368][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 15:59:34,949][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 15:59:34,950][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 15:59:34,950][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 15:59:34,950][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 15:59:34,950][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 15:59:34,951][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8c9d35e2-6e18-41f9-a96a-110ee08acac8"},"Content":""}
+[2019-05-10 15:59:34,952][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"2f48abd1-3a84-4a2f-9e76-7d3579e93b16"},"Content":""}
+[2019-05-10 16:02:34,951][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:02:34,951][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:02:34,952][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:02:34,952][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:02:34,952][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:02:34,953][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"78eda344-f8fc-4d42-a25b-a9f7db77ed32"},"Content":""}
+[2019-05-10 16:02:34,954][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"778d127a-18ef-49bf-8d74-acae833ff6de"},"Content":""}
+[2019-05-10 16:05:34,951][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:05:34,951][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:05:34,952][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:05:34,953][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:05:34,954][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:05:34,956][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"c8db054f-f156-47a0-8201-c5655acc7d39"},"Content":""}
+[2019-05-10 16:05:34,957][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"6b9b84db-50b4-4690-961c-78b496a85f06"},"Content":""}
+[2019-05-10 16:07:32,370][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 16:08:34,954][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:08:34,955][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:08:34,956][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:08:34,957][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:08:34,959][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:08:34,961][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"17a81f82-2c85-4856-b272-f0b0932b09ea"},"Content":""}
+[2019-05-10 16:08:34,963][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"14fd2d80-0e4d-486a-b6f5-9bb4903d8037"},"Content":""}
+[2019-05-10 16:11:34,952][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:11:34,953][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:11:34,954][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:11:34,955][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:11:34,957][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:11:34,959][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f0c37505-d658-49ea-aa6e-4d1d6ee79a20"},"Content":""}
+[2019-05-10 16:11:34,961][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e1505afb-11b1-4b35-9055-b27e9184a48a"},"Content":""}
+[2019-05-10 16:14:34,949][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:14:34,950][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:14:34,950][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:14:34,950][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:14:34,951][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:14:34,952][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b062d570-edca-4845-a228-e2e31521df46"},"Content":""}
+[2019-05-10 16:14:34,953][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"5a3f2d2e-0606-4bfb-954c-3ec0353c98db"},"Content":""}
+[2019-05-10 16:17:32,371][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 16:17:34,947][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:17:34,947][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:17:34,948][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:17:34,948][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:17:34,948][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:17:34,949][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a5bb34e8-471b-40d0-88ee-06b7d55063ca"},"Content":""}
+[2019-05-10 16:17:34,949][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"069a9b0e-17f4-4c2c-8645-41601fd1ccff"},"Content":""}
+[2019-05-10 16:20:34,950][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:20:34,951][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:20:34,951][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:20:34,952][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:20:34,953][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:20:34,954][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"244759e5-5398-4448-91ff-f44471907c89"},"Content":""}
+[2019-05-10 16:20:34,955][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a4c876b1-c582-4adc-a09f-ae7ceedcf25c"},"Content":""}
+[2019-05-10 16:23:34,947][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:23:34,947][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:23:34,948][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:23:34,948][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:23:34,949][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:23:34,950][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"3348c100-1965-4593-b0c0-44f5928bdfec"},"Content":""}
+[2019-05-10 16:23:34,950][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"6eb5a156-df4e-45d8-9996-433844a276cb"},"Content":""}
+[2019-05-10 16:26:34,953][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:26:34,954][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:26:34,955][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:26:34,956][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:26:34,957][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:26:34,960][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"42773fe4-fc5a-4aaa-b802-6118a3f9dd2a"},"Content":""}
+[2019-05-10 16:26:34,962][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"141070f1-94fd-44d3-8ded-aeb14c134781"},"Content":""}
+[2019-05-10 16:27:32,371][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 16:29:34,949][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:29:34,949][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:29:34,950][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:29:34,950][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:29:34,950][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:29:34,951][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"22b623d5-ecb0-42c7-9a62-52aa23e1ab9d"},"Content":""}
+[2019-05-10 16:29:34,952][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e9c5d6d9-0e5b-42d1-b096-ccc6d76b7e06"},"Content":""}
+[2019-05-10 16:32:34,954][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:32:34,955][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:32:34,956][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:32:34,957][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:32:34,959][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:32:34,962][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"425a87b6-36c0-4441-b529-05b5d4a00873"},"Content":""}
+[2019-05-10 16:32:34,964][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f2f9e646-9c2c-4471-bfcf-103b2e8780d8"},"Content":""}
+[2019-05-10 16:35:34,950][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:35:34,951][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:35:34,952][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:35:34,952][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:35:34,953][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:35:34,955][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"8c19786b-610d-4254-b36f-38baf605fc3a"},"Content":""}
+[2019-05-10 16:35:34,956][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"00122320-0835-41dc-b2cd-a56390de76b0"},"Content":""}
+[2019-05-10 16:37:32,372][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 16:38:34,960][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:38:34,961][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:38:34,962][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:38:34,963][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:38:34,965][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:38:34,968][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"c6181b8b-3df0-44f7-ab5e-d935da528bb5"},"Content":""}
+[2019-05-10 16:38:34,971][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"b5bc8c83-4efc-45da-a16d-5704845c8ccb"},"Content":""}
+[2019-05-10 16:41:34,967][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:41:34,969][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:41:34,970][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:41:34,970][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:41:34,972][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:41:34,975][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"0e652a7b-3eba-4fd4-ba1d-0938c2866faf"},"Content":""}
+[2019-05-10 16:41:34,977][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"f4ff00d8-e8c3-481d-bf10-01c7ea2d778b"},"Content":""}
+[2019-05-10 16:44:34,964][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:44:34,965][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:44:34,965][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:44:34,966][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:44:34,967][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:44:34,968][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"03c4da5e-24e3-49a5-9467-41abd1dd5846"},"Content":""}
+[2019-05-10 16:44:34,969][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"781d6097-2348-4d84-85cf-44c409d44f66"},"Content":""}
+[2019-05-10 16:47:32,372][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 16:47:34,963][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:47:34,963][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:47:34,963][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:47:34,963][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:47:34,964][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:47:34,965][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1900edc8-22d7-427c-ad62-8ae2e8191302"},"Content":""}
+[2019-05-10 16:47:34,965][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"155b01f0-8588-4165-97da-3168acb0114a"},"Content":""}
+[2019-05-10 16:50:34,967][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:50:34,968][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:50:34,970][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:50:34,971][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:50:34,973][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:50:34,976][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"d76a0dec-c3f7-4a90-84d1-33709d04d8db"},"Content":""}
+[2019-05-10 16:50:34,984][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"38c386bf-7449-4e5c-9b55-3a0744fb37d7"},"Content":""}
+[2019-05-10 16:53:34,965][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:53:34,965][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:53:34,966][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:53:34,966][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:53:34,967][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:53:34,968][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"c592b212-2689-48f8-96ed-9e166cd7d75a"},"Content":""}
+[2019-05-10 16:53:34,969][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ab6cfabb-94c4-432c-9cb6-cee9d871e4df"},"Content":""}
+[2019-05-10 16:56:34,973][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:56:34,974][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:56:34,975][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:56:34,976][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:56:34,978][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:56:34,981][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"5ffda40c-b339-447d-9458-9e684cfb6491"},"Content":""}
+[2019-05-10 16:56:34,984][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"67d2eccf-e0ae-4a6d-9279-0694049b285e"},"Content":""}
+[2019-05-10 16:57:32,374][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 16:59:34,985][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 16:59:34,986][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 16:59:34,987][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 16:59:34,988][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 16:59:34,990][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 16:59:34,993][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"43ba1eef-49ca-40ed-8faa-6701bbcb894e"},"Content":""}
+[2019-05-10 16:59:34,994][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"150a95f7-4b7f-4ddd-aa4f-2df341523b5e"},"Content":""}
+[2019-05-10 17:02:34,980][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:02:34,980][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:02:34,981][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:02:34,981][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:02:34,981][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:02:34,982][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"0e4b84e2-fc9d-4efa-b67d-5fb5bcf7b5dd"},"Content":""}
+[2019-05-10 17:02:34,983][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"c1544d04-d7c8-4634-afe5-476435034967"},"Content":""}
+[2019-05-10 17:05:34,982][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:05:34,982][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:05:34,982][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:05:34,983][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:05:34,983][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:05:34,984][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"382294cc-0046-4365-b610-1aedf7f821d7"},"Content":""}
+[2019-05-10 17:05:34,985][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"99972ee4-6854-4033-b00a-89b3fe57e6fa"},"Content":""}
+[2019-05-10 17:07:32,373][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 17:08:34,980][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:08:34,980][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:08:34,981][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:08:34,981][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:08:34,983][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:08:34,984][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e7426b14-aebf-4e50-ac8f-4c0b59e4a564"},"Content":""}
+[2019-05-10 17:08:34,985][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a4d51517-2732-496b-a1aa-ed4bd2da2456"},"Content":""}
+[2019-05-10 17:11:34,979][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:11:34,979][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:11:34,979][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:11:34,979][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:11:34,980][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:11:34,980][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"c4684f87-1907-489e-bbd6-43921c5de9e2"},"Content":""}
+[2019-05-10 17:11:34,981][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"a537b2a6-7995-4831-818b-8f05c6f9a667"},"Content":""}
+[2019-05-10 17:14:34,982][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:14:34,983][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:14:34,984][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:14:34,985][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:14:34,987][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:14:34,989][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"dddfc281-8d1d-4452-8dd7-a951e7602374"},"Content":""}
+[2019-05-10 17:14:34,991][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"ec6d8e34-e3ad-4e0c-bf9e-573883bfba39"},"Content":""}
+[2019-05-10 17:17:32,373][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 17:17:34,979][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:17:34,979][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:17:34,980][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:17:34,980][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:17:34,980][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:17:34,981][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"e1fcbb14-f30e-40b2-aff0-4ae12f2d01f8"},"Content":""}
+[2019-05-10 17:17:34,982][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"52de3cd1-cd40-4831-876e-af4464c6761b"},"Content":""}
+[2019-05-10 17:20:34,982][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:20:34,983][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:20:34,984][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:20:34,985][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:20:34,986][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:20:34,989][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"02baebd2-b8cd-4aa6-877f-ce23a2a1adde"},"Content":""}
+[2019-05-10 17:20:34,990][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"86038f66-8d8c-4b2f-af93-162672b20d24"},"Content":""}
+[2019-05-10 17:23:34,982][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:23:34,983][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:23:34,984][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:23:34,985][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:23:34,987][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:23:34,990][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"db10bd60-334d-4d18-972f-0d9e5c05f017"},"Content":""}
+[2019-05-10 17:23:34,991][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"22cb17c0-ff14-469f-b318-c3528373b28a"},"Content":""}
+[2019-05-10 17:26:34,983][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:26:34,983][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:26:34,984][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:26:34,984][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:26:34,984][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:26:34,985][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"0488eab2-b3f9-4d69-89f5-31c2937e3e42"},"Content":""}
+[2019-05-10 17:26:34,986][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"7e68e0ee-d9ba-41d9-aa14-ebb114036072"},"Content":""}
+[2019-05-10 17:27:32,372][5.1.12.63002]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-10 17:29:34,980][5.1.12.63002]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-10 17:29:34,981][5.1.12.63002]Info [Cannot Sync] not opened
+[2019-05-10 17:29:34,981][5.1.12.63002]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-10 17:29:34,982][5.1.12.63002]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-10 17:29:34,983][5.1.12.63002]Info [CoursewareProvider] End Sync
+[2019-05-10 17:29:34,984][5.1.12.63002]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"1ba4399b-26ca-4060-bbfb-955c40ef2ceb"},"Content":""}
+[2019-05-10 17:29:34,985][5.1.12.63002]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"17800","SerialNumber":"11adee77-d474-46e3-b902-cf7bb21c8051"},"Content":""}
+[2019-05-10 17:31:08,023][5.1.12.63002]Info [BrowserProcess Info]BroswerServer Stopped.
+[2019-05-10 17:31:08,084][5.1.12.63002]Info [CoursewareProvider] Start Close 
+[2019-05-10 17:31:08,123][5.1.12.63002]Info [DataPackage] Courseware RemoteId is NullOrWhiteSpace
+[2019-05-10 17:31:08,134][5.1.12.63002]Info [CoursewareProvider] End Close

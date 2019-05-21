@@ -1,0 +1,316 @@
+﻿
+[2019-05-18 11:17:25,490][5.1.12.64091]Info [CoursewareCacheProvider] Start Init 
+[2019-05-18 11:17:25,492][5.1.12.64091]Info [CoursewareCacheProvider] End Init
+[2019-05-18 11:17:25,536][5.1.12.64091]Info [HardwareAccelarated] 可以选择的模式SoftPenMode,
+[2019-05-18 11:17:25,537][5.1.12.64091]Info [HardwareAccelarated] 配置的模式：默认
+[2019-05-18 11:17:25,538][5.1.12.64091]Info [HardwareAccelarated]默认模式SoftPenMode
+[2019-05-18 11:17:27,276][5.1.12.64091]Info [HTTP Request] GET https://edu.seewo.com/api/v1/school/status
+[2019-05-18 11:17:27,279][5.1.12.64091]Info [HTTP Request] GET https://edu.seewo.com/api/v1/remoteClass/check
+[2019-05-18 11:17:27,477][5.1.12.64091]Info [HTTP Request] GET https://edu.seewo.com/api/v2/capsule/entry
+[2019-05-18 11:17:27,482][5.1.12.64091]Info [HTTP Request] GET https://edu.seewo.com/third/api/v1/beauty/science/auth
+[2019-05-18 11:17:27,482][5.1.12.64091]Info [HTTP Request] GET https://edu.seewo.com/api/v1/user/property?name=DisplaySetting
+[2019-05-18 11:17:27,482][5.1.12.64091]Info [HTTP Request] POST https://edu.seewo.com/third/api/v1/course/nb/login
+[2019-05-18 11:17:27,525][5.1.12.64091]Info [HTTP Request] GET https://edu.seewo.com/api/v1/exam/check/entry
+[2019-05-18 11:17:27,570][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/api/v1/school/status 200 4704 teacher info not found;version:5.1.12.64091;Id:db748b38c452425989e976ce270b4082
+[2019-05-18 11:17:27,585][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/api/v1/remoteClass/check 200 0 ;version:5.1.12.64091;Id:db748b38c452425989e976ce270b4082
+[2019-05-18 11:17:27,587][5.1.12.64091]Info [DataPackage] Courseware RemoteId is NullOrWhiteSpace
+[2019-05-18 11:17:27,617][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/res/App.config 200
+[2019-05-18 11:17:27,617][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/api/v1/user/property?name=DisplaySetting 200 4301 user property not found;version:5.1.12.64091;Id:db748b38c452425989e976ce270b4082
+[2019-05-18 11:17:27,618][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/third/api/v1/beauty/science/auth 200
+[2019-05-18 11:17:27,620][5.1.12.64091]Info [HTTP Request] GET https://edu.seewo.com/api/v1/user/property?name=EditingSetting
+[2019-05-18 11:17:27,624][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/api/v2/capsule/entry 200 0 ;version:5.1.12.64091;Id:db748b38c452425989e976ce270b4082
+[2019-05-18 11:17:27,625][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/api/v1/pushphoto/latest 200
+[2019-05-18 11:17:27,653][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/api/v1/exam/check/entry 200 0 ;version:5.1.12.64091;Id:db748b38c452425989e976ce270b4082
+[2019-05-18 11:17:27,690][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/api/v1/user/property?name=EditingSetting 200 0 ok;version:5.1.12.64091;Id:db748b38c452425989e976ce270b4082
+[2019-05-18 11:17:27,694][5.1.12.64091]Info [HTTP Response] POST https://edu.seewo.com/third/api/v1/course/nb/login 200
+[2019-05-18 11:17:27,703][5.1.12.64091]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-18 11:17:27,706][5.1.12.64091]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-18 11:17:27,720][5.1.12.64091]Info [Mobile] shell send message to cloud  UpdateShellState 103 : {"id":"","name":null,"parentid":null,"state":0,"sync":false,"version":0}
+[2019-05-18 11:17:27,732][5.1.12.64091]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-18 11:17:27,746][5.1.12.64091]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-18 11:17:27,771][5.1.12.64091]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-18 11:17:27,812][5.1.12.64091]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-18 11:17:28,397][5.1.12.64091]Info [TimeCapsule][EnvironmentDetection] 加入信鸽状态：False.
+[2019-05-18 11:17:28,397][5.1.12.64091]Info [TimeCapsule][EnvironmentDetection] 用户等级状态：False.
+[2019-05-18 11:17:29,530][5.1.12.64091]Info [HTTP Request] GET https://edu.seewo.com/api/v1/message/update?lastCreateTime=1480907955000
+[2019-05-18 11:17:29,606][5.1.12.64091]Info [HTTP Response] GET https://edu.seewo.com/api/v1/message/update?lastCreateTime=1480907955000 200 0 ok;version:5.1.12.64091;Id:db748b38c452425989e976ce270b4082
+[2019-05-18 11:17:29,725][5.1.12.64091]Info [HTTP Response] POST http://myou.cvte.com/api/v1/monitor 200
+[2019-05-18 11:20:06,666][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:20:06,679][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:20:06,679][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:20:06,681][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:20:27,471][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:20:27,485][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:20:27,489][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:20:27,498][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:20:27,506][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"6dc5ebd4-4578-4976-8ffe-db5fb9cf4e9b"},"Content":""}
+[2019-05-18 11:20:27,507][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:20:27,507][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"fa3ad0b6-5eb7-4caa-b484-434e117d147c"},"Content":""}
+[2019-05-18 11:23:06,880][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:23:06,881][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:23:06,882][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:23:06,883][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:23:27,508][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:23:27,509][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:23:27,510][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:23:27,511][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:23:27,513][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:23:27,514][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"ad8ee793-ca3b-4c0f-8bc2-205e044b2665"},"Content":""}
+[2019-05-18 11:23:27,516][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"4f9bf380-bec4-4245-9901-9d4a93b2881d"},"Content":""}
+[2019-05-18 11:26:08,815][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:26:08,816][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:26:08,817][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:26:08,819][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:26:27,507][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:26:27,508][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:26:27,509][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:26:27,510][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:26:27,511][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:26:27,513][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"dc19e1db-ba49-472e-85a6-ee05620f1628"},"Content":""}
+[2019-05-18 11:26:27,515][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"19712db9-7597-4181-94be-1692a959ed3b"},"Content":""}
+[2019-05-18 11:27:25,551][5.1.12.64091]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-18 11:29:07,057][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:29:07,058][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:29:07,059][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:29:07,060][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:29:27,513][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:29:27,514][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:29:27,515][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:29:27,516][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:29:27,518][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:29:27,520][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"f6c763b9-db34-432c-852c-687120a0b873"},"Content":""}
+[2019-05-18 11:29:27,521][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"7c1d5e16-75ee-4b8e-ab9c-258667eeef15"},"Content":""}
+[2019-05-18 11:32:07,215][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:32:07,216][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:32:07,217][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:32:07,218][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:32:27,508][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:32:27,509][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:32:27,510][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:32:27,511][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:32:27,513][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:32:27,515][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"4bce7ddc-f7c3-4c17-b78a-dbccd82d1df5"},"Content":""}
+[2019-05-18 11:32:27,516][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"8a5baf96-5cdc-4ef2-ba31-2c7be86a8371"},"Content":""}
+[2019-05-18 11:35:07,301][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:35:07,302][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:35:07,303][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:35:07,305][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:35:27,513][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:35:27,514][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:35:27,515][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:35:27,516][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:35:27,517][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:35:27,519][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"afa4ecaa-1c89-4288-bc4d-099817f261c4"},"Content":""}
+[2019-05-18 11:35:27,521][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"3b203726-b2c5-47bf-a3c9-d6803293b1d5"},"Content":""}
+[2019-05-18 11:37:25,538][5.1.12.64091]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-18 11:38:07,255][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:38:07,255][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:38:07,256][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:38:07,256][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:38:27,515][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:38:27,516][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:38:27,517][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:38:27,518][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:38:27,520][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:38:27,522][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"98410303-2a81-4336-8135-cb101c2059b9"},"Content":""}
+[2019-05-18 11:38:27,525][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"82997ea8-74d9-4e6b-afd9-9f79fbf48755"},"Content":""}
+[2019-05-18 11:41:07,436][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:41:07,437][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:41:07,439][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:41:07,441][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":410,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":70,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:41:27,513][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:41:27,514][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:41:27,515][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:41:27,516][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:41:27,517][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:41:27,520][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"fbe55b62-7189-4a2f-a344-3f697f71639f"},"Content":""}
+[2019-05-18 11:41:27,521][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"1ea01394-05f6-4ca3-9fb0-f70f4987989f"},"Content":""}
+[2019-05-18 11:44:07,358][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:44:07,359][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:44:07,360][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:44:07,360][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:44:27,517][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:44:27,518][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:44:27,519][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:44:27,520][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:44:27,521][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:44:27,524][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"168108fb-0b43-4636-981a-f8460dae7227"},"Content":""}
+[2019-05-18 11:44:27,525][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"8adcfb0d-733a-4626-96e0-b15e09a1bcd2"},"Content":""}
+[2019-05-18 11:47:07,608][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:47:07,610][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:47:07,611][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:47:07,612][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:47:25,539][5.1.12.64091]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-18 11:47:27,523][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:47:27,524][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:47:27,525][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:47:27,526][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:47:27,528][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:47:27,530][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"bd1daf2a-2033-41b3-b059-eed9e2a04aa1"},"Content":""}
+[2019-05-18 11:47:27,531][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"7d77a24d-afab-4276-b1f5-8ded88ed40d8"},"Content":""}
+[2019-05-18 11:50:07,583][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:50:07,584][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:50:07,585][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:50:07,586][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:50:27,524][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:50:27,525][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:50:27,526][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:50:27,527][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:50:27,528][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:50:27,530][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"5460b0d8-f2ad-4713-a38b-3aa0476d3db0"},"Content":""}
+[2019-05-18 11:50:27,532][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"ac43e36d-2258-467f-b938-64f22281db41"},"Content":""}
+[2019-05-18 11:53:07,744][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:53:07,745][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:53:07,746][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:53:07,747][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:53:27,524][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:53:27,525][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:53:27,526][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:53:27,527][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:53:27,529][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:53:27,531][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"424f74fb-da95-4475-a3df-99731b3939eb"},"Content":""}
+[2019-05-18 11:53:27,533][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"6423d4d6-0359-40ad-b7b9-cf4629ff3bbe"},"Content":""}
+[2019-05-18 11:56:07,656][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:56:07,656][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:56:07,657][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:56:07,658][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:56:27,523][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:56:27,524][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:56:27,525][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:56:27,526][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:56:27,527][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:56:27,529][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"b94249cd-4886-419e-8126-83ab3d53a843"},"Content":""}
+[2019-05-18 11:56:27,531][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"29a529dc-1ea1-41ff-a55e-0c788caa9cb7"},"Content":""}
+[2019-05-18 11:57:25,540][5.1.12.64091]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-18 11:58:57,695][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:58:57,696][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:58:57,696][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:58:57,696][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:58:57,707][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_DataPackageUpdate","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"[]"}
+[2019-05-18 11:58:57,707][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"DataPackageUpdate","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"[]"}
+[2019-05-18 11:58:57,773][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_ChangeUserInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"UserId\":\"13622906731\",\"NickName\":\"阿拉伯字母\",\"StageId\":\"CodeSchoolStage_3\",\"SubjectId\":\"CodeCourseSubject_99\",\"StageName\":\"其他\",\"SubjectName\":\"其他\",\"ResourceId\":\"db748b38c452425989e976ce270b4082\"}"}
+[2019-05-18 11:58:57,773][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"ChangeUserInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"UserId\":\"13622906731\",\"NickName\":\"阿拉伯字母\",\"StageId\":\"CodeSchoolStage_3\",\"SubjectId\":\"CodeCourseSubject_99\",\"StageName\":\"其他\",\"SubjectName\":\"其他\",\"ResourceId\":\"db748b38c452425989e976ce270b4082\"}"}
+[2019-05-18 11:58:57,774][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:58:57,776][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_ChangeUserInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"UserId\":\"13622906731\",\"NickName\":\"阿拉伯字母\",\"StageId\":\"CodeSchoolStage_3\",\"SubjectId\":\"CodeCourseSubject_99\",\"StageName\":\"其他\",\"SubjectName\":\"其他\",\"ResourceId\":\"db748b38c452425989e976ce270b4082\"}"}
+[2019-05-18 11:58:57,792][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:58:57,793][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"ChangeUserInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"UserId\":\"13622906731\",\"NickName\":\"阿拉伯字母\",\"StageId\":\"CodeSchoolStage_3\",\"SubjectId\":\"CodeCourseSubject_99\",\"StageName\":\"其他\",\"SubjectName\":\"其他\",\"ResourceId\":\"db748b38c452425989e976ce270b4082\"}"}
+[2019-05-18 11:58:57,920][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:58:57,920][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":3,"Id":"fake_UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:58:57,920][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateDisplayAvatar","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"Photo\":\"\",\"PhotoUrl\":\"\"}"}
+[2019-05-18 11:58:57,921][5.1.12.64091]Info Client receive server message {"Header":{"Type":3,"Id":"UpdateLevelInfo","SourceId":"Server","TargetId":"AllUser","SerialNumber":""},"Content":"{\"background\":\"\",\"experience\":460,\"level\":5,\"memberSymbol\":\"青铜\",\"needExperience\":20,\"nextSymbol\":\"白银\",\"headUrl\":[\"http://edu.seewo.com/res/head/1/1_1_24.png\",\"http://edu.seewo.com/res/head/1/1_1_32.png\",\"http://edu.seewo.com/res/head/1/1_1_42.png\",\"http://edu.seewo.com/res/head/1/1_1_64.png\",\"http://edu.seewo.com/res/head/1/1_1_80.png\"],\"isLevelUp\":false,\"cloudSize\":3221225472,\"currentCloudSize\":6316035,\"cloudCoursewareSize\":6316035,\"cloudDiskSize\":0,\"cloudElementSize\":0}"}
+[2019-05-18 11:59:27,523][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 11:59:27,525][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 11:59:27,525][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 11:59:27,526][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 11:59:27,528][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 11:59:27,530][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"1d30d7eb-0b79-4718-83da-9dce4a621215"},"Content":""}
+[2019-05-18 11:59:27,532][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"fd562162-ec91-497a-823b-a27283826f1e"},"Content":""}
+[2019-05-18 12:02:27,526][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:02:27,527][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:02:27,528][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:02:27,529][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:02:27,531][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:02:27,533][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"c59a99a5-0d7f-4a22-8d3b-5ce4e70f8031"},"Content":""}
+[2019-05-18 12:02:27,535][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"78bd7adb-9aad-4041-8d1b-5eb2a830f83f"},"Content":""}
+[2019-05-18 12:05:27,525][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:05:27,526][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:05:27,527][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:05:27,528][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:05:27,529][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:05:27,532][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"9553522a-8e62-4707-9280-94fe18977bd5"},"Content":""}
+[2019-05-18 12:05:27,534][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"b5144a9d-7cf5-4bcc-8889-f19ce34062b2"},"Content":""}
+[2019-05-18 12:07:25,552][5.1.12.64091]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-18 12:08:27,532][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:08:27,533][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:08:27,534][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:08:27,535][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:08:27,536][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:08:27,539][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"53ad1e62-611f-4d44-936a-597cbce1cf5d"},"Content":""}
+[2019-05-18 12:08:27,541][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"aec58cc6-36e3-476c-90f4-95cb8ea1c8e2"},"Content":""}
+[2019-05-18 12:11:27,544][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:11:27,545][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:11:27,546][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:11:27,547][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:11:27,548][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:11:27,551][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"4cdccf2a-30f3-4b85-85de-eaae400b0242"},"Content":""}
+[2019-05-18 12:11:27,553][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"1c89a7c8-ed71-4498-aa82-e61d6060f4a9"},"Content":""}
+[2019-05-18 12:14:27,542][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:14:27,543][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:14:27,544][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:14:27,545][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:14:27,546][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:14:27,549][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"956e6652-397c-405d-9eac-7bdfe7b75cdc"},"Content":""}
+[2019-05-18 12:14:27,550][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"64c5d3ae-62e8-487e-aa05-fd7c8360d7c0"},"Content":""}
+[2019-05-18 12:17:25,553][5.1.12.64091]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-18 12:17:27,541][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:17:27,542][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:17:27,543][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:17:27,544][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:17:27,545][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:17:27,547][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"b829d780-3225-43df-893f-c58328fe5d85"},"Content":""}
+[2019-05-18 12:17:27,549][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"c8a05f5b-cc62-4370-8864-068d81596023"},"Content":""}
+[2019-05-18 12:20:27,545][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:20:27,546][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:20:27,547][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:20:27,548][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:20:27,549][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:20:27,558][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"35c25749-c1f2-4d0c-91c4-111163c6105a"},"Content":""}
+[2019-05-18 12:20:27,559][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"45ea9ee8-5f1b-4aea-9125-ab8be67fa4bc"},"Content":""}
+[2019-05-18 12:23:27,543][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:23:27,543][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:23:27,543][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:23:27,544][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:23:27,544][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:23:27,544][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"0e034589-dc0b-4eea-bd64-348b03a9c16d"},"Content":""}
+[2019-05-18 12:23:27,545][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"67d60124-ebb6-40fc-940a-04deb5a73384"},"Content":""}
+[2019-05-18 12:26:27,546][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:26:27,548][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:26:27,549][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:26:27,549][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:26:27,551][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:26:27,553][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"6af39f48-6250-47e3-ab46-705cbe18a8ba"},"Content":""}
+[2019-05-18 12:26:27,557][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"3dd43d84-2bec-4fe3-8810-0317daa5bc89"},"Content":""}
+[2019-05-18 12:27:25,554][5.1.12.64091]Info [IpcMonitor-Client]:NamedPipeIpcService recive 0 more than TcpIpcService
+[2019-05-18 12:29:27,555][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:29:27,556][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:29:27,557][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:29:27,558][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:29:27,559][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:29:27,562][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"ed9d81f9-75e7-40d0-9529-70f3d95ae768"},"Content":""}
+[2019-05-18 12:29:27,564][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"5ed33964-9ff3-4e21-917e-8aaa3f634418"},"Content":""}
+[2019-05-18 12:32:27,557][5.1.12.64091]Info [CoursewareProvider] Start Sync  Timer
+[2019-05-18 12:32:27,558][5.1.12.64091]Info [Cannot Sync] not opened
+[2019-05-18 12:32:27,559][5.1.12.64091]Info [CoursewareService] [IPC Shell Notify Cloud] 
+ MessageId:PretendSyncCourseware;  Content:
+[2019-05-18 12:32:27,560][5.1.12.64091]Info [IPC NotifyWithAckAsync ClientToServer] MessageId:PretendSyncCourseware; Content:
+[2019-05-18 12:32:27,562][5.1.12.64091]Info [CoursewareProvider] End Sync
+[2019-05-18 12:32:27,564][5.1.12.64091]Info [NamedPipeClient] receive: {"Header":{"Type":2,"Id":"fake_PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"2b05b497-14f7-45cf-8ccc-c224172410f4"},"Content":""}
+[2019-05-18 12:32:27,565][5.1.12.64091]Info Client receive server message {"Header":{"Type":2,"Id":"PretendSyncCourseware","SourceId":"Server","TargetId":"5404","SerialNumber":"17ca395a-0d91-484c-9944-986d0ee9b672"},"Content":""}
+[2019-05-18 12:34:07,658][5.1.12.64091]Info [BrowserProcess Info]BroswerServer Stopped.
+[2019-05-18 12:34:07,668][5.1.12.64091]Info [CoursewareProvider] Start Close 
+[2019-05-18 12:34:07,685][5.1.12.64091]Info [DataPackage] Courseware RemoteId is NullOrWhiteSpace
+[2019-05-18 12:34:07,688][5.1.12.64091]Info [CoursewareProvider] End Close

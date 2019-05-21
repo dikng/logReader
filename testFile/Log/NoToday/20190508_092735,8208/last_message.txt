@@ -1,0 +1,28 @@
+﻿
+****************************************************************
+
+应用版本：  5.1.12.63002
+记录时间：  2019-05-08 09:27:36,072 
+线程ID  ：  [1] 
+日志级别：  ERROR 
+出错类  ：  LastMessageLog property:[(null)] - 
+错误描述：  Error TryGetResource Error:C:\Users\user\AppData\Roaming\Seewo\EasiNote5\Dependencies\ClassicalWorks_Metadata
+
+****************************************************************
+
+应用版本：  5.1.12.63002
+记录时间：  2019-05-08 21:01:44,240 
+线程ID  ：  [154] 
+日志级别：  ERROR 
+出错类  ：  LastMessageLog property:[(null)] - 
+错误描述：  Error [TimeCapsule][DeviceInfo] 结束录播驱动失败，录播驱动不存在：
+
+****************************************************************
+
+应用版本：  5.1.12.63002
+记录时间：  2019-05-08 21:01:44,432 
+线程ID  ：  [1] 
+日志级别：  ERROR 
+出错类  ：  LastMessageLog property:[(null)] - 
+错误描述：  Error {"Header":{"Type":0,"Id":"SetClientinfoForce","SourceId":"8208","TargetId":"Server","SerialNumber":""},"Content":"{\"Item1\":\"\",\"Item2\":\"\"}"}
+System.InvalidOperationException: State != CommunicationState.Opened. State is Faulted

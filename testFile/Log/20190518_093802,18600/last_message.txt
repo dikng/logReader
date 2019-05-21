@@ -1,0 +1,27 @@
+﻿
+****************************************************************
+
+应用版本：  5.1.12.64091
+记录时间：  2019-05-18 09:38:02,752 
+线程ID  ：  [1] 
+日志级别：  ERROR 
+出错类  ：  LastMessageLog property:[(null)] - 
+错误描述：  Error TryGetResource Error:C:\Users\user\AppData\Roaming\Seewo\EasiNote5\Dependencies\ClassicalWorks_Metadata
+
+****************************************************************
+
+应用版本：  5.1.12.64091
+记录时间：  2019-05-18 09:52:09,841 
+线程ID  ：  [30] 
+日志级别：  ERROR 
+出错类  ：  LastMessageLog property:[(null)] - 
+错误描述：  Error [TimeCapsule][DeviceInfo] 结束录播驱动失败，录播驱动不存在：
+
+****************************************************************
+
+应用版本：  5.1.12.64091
+记录时间：  2019-05-18 09:52:11,292 
+线程ID  ：  [48] 
+日志级别：  ERROR 
+出错类  ：  LastMessageLog property:[(null)] - 
+错误描述：  Error [TimeCapsule][DeviceInfo] 结束录播驱动失败，录播驱动不存在：
