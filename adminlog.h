@@ -37,7 +37,7 @@ class AdminLog : public QObject
     Q_OBJECT
 public:
     explicit AdminLog(QObject *parent = nullptr);
-    bool ReadFile();    //读取文件中的日志信息
+    bool ReadFile(const QString& fileName);    //读取文件中的日志信息
     bool OutPutToXML();  //将特定日志信息以XML格式写到文件中去
     void OutputLogToConsole(const Log& log);
     bool IsNewStr(const QString& newLine);   //判断是当前读入的字符串是否为新的日志记录
@@ -45,11 +45,12 @@ public:
     void EmitSignalToMainwindowsIfReadSucc();
     void OutputToConsole();    //for testing
 signals:
-    void SendLogListToMainWindows(const QList<Log>& logList);//将数据传送到mainwindows类
+    void SendLogListToMainWindows(const QList<Log>& logList,int start);//将数据传送到mainwindows类,start 是logList中开始显示的日志的起始位置
 public slots:
 
 private:
     QList<Log> logList;
+    int lastIndex;    //更新logList之前的logList中最后一条日志的下标
 };
 
 #endif // ADMINLOG_H

@@ -8,11 +8,10 @@
 
 AdminLog::AdminLog(QObject *parent) : QObject(parent)
 {
-
+    lastIndex = 0;
 }
 
-
-
+/*   //primitive version
 bool AdminLog::ReadFile()
 {
     char space = ' ';
@@ -43,6 +42,43 @@ bool AdminLog::ReadFile()
 
     }
 //    this->OutputToConsole();
+    return true;
+}*/
+
+
+/*使用atEnd()作为读文件结束条件并不能将整个文件读入，
+ * 遗漏的行数和文件内总行数成正比
+ */
+bool AdminLog::ReadFile(const QString& fileName)
+{
+    char space = ' ';
+    bool flag;
+    QString str2;
+
+    QFile file(fileName);
+    if(!file.open(QIODevice::ReadOnly ))
+        qDebug() << file.errorString();
+    QTextStream in(&file);
+    while(!file.atEnd())
+    {
+        QString str = nullptr;
+        in >> str;
+        if(!(flag = IsNewStr(str))){
+            str2 = str2 + space +str;
+        }
+        else{
+            Log *temp = GetNewLog(str2);
+            if(nullptr != temp)
+                logList.append(*temp);
+            str2 = str;
+        }
+
+    }
+    file.close();
+    this->OutputToConsole();
+    emit SendLogListToMainWindows(logList,lastIndex);
+    lastIndex = lastIndex + logList.size() - 1;
+
     return true;
 }
 
@@ -75,10 +111,7 @@ Log *AdminLog::GetNewLog(const QString &str1)
 
 void AdminLog::EmitSignalToMainwindowsIfReadSucc()
 {
-    if(ReadFile())
-       emit SendLogListToMainWindows(logList);   //发送信号到mainwindows类进行展示
-   else
-        qDebug() << "failed to read";
+    //被废弃
 }
 
 void AdminLog::OutputToConsole()

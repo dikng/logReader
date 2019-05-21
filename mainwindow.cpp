@@ -5,15 +5,22 @@
 #include <QDialog>
 #include <QPushButton>
 #include <QVBoxLayout>
-
+#include <QDragEnterEvent>
+#include <QUrl>
+#include <QMimeData>
+#include <QPainter>
+#include <QString>
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setAcceptDrops(true);
     adminLog = new AdminLog();
-    connect(adminLog,SIGNAL(SendLogListToMainWindows(const QList<Log>&)),this,SLOT(DisplayAll(const QList<Log>&)));
-    adminLog->EmitSignalToMainwindowsIfReadSucc();
+    Conn();
+
+/*
+    adminLog->EmitSignalToMainwindowsIfReadSucc();*/
 
 }
 
@@ -22,13 +29,14 @@ MainWindow::~MainWindow()
     delete ui;
 }
 
-void MainWindow::DisplayOne(const Log& log,int serial)
+void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
 {
+//    qDebug() <<"enter DisplayOne()" << serial;
     QTableWidgetItem *itemSerial = new QTableWidgetItem(QString::number(serial + 1));
     QTableWidgetItem *itemLogData = new QTableWidgetItem(log.logData);
     QTableWidgetItem *itemSoftwareVersion = new QTableWidgetItem(log.softwareVersion);
     QTableWidgetItem *itemlogType = new QTableWidgetItem(log.logType);
-    QTableWidgetItem *itemlogContent = new QTableWidgetItem(log.logContent);
+    QTableWidgetItem *itemlogContent = new QTableWidgetItem(tr(log.logContent.toStdString().c_str()));
 
     ui->tableWidget->setItem(serial,0,itemSerial);
     ui->tableWidget->setItem(serial,1,itemLogData);
@@ -52,7 +60,7 @@ void MainWindow::DisplayOne(const Log& log,int serial)
 
     for(int i = 0;i < 4 ;i++){
         ui->tableWidget->item(serial,i)->setTextAlignment(Qt::AlignCenter);
-        if(0 == serial)
+        if(2 > serial)
             ui->tableWidget->resizeColumnToContents(i);
     }
 }
@@ -64,7 +72,6 @@ void MainWindow::InitTableHead()
     ui->tableWidget->horizontalHeader()->setFont(font);
 
     ui->tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);    //设置表格不可编辑
-    int width = ui ->tableWidget->width();
     ui->tableWidget->setColumnCount(5);
 
     QStringList headList;
@@ -85,20 +92,26 @@ void MainWindow::InitTableHead()
 
 }
 
-void MainWindow::DisplayAll(const QList<Log> &logList)
+void MainWindow::Conn()
 {
+    connect(adminLog,SIGNAL(SendLogListToMainWindows(const QList<Log>&,int )),this,SLOT(DisplayAll(const QList<Log>&,int)));   //将logList发送到MianWindows中显示
+    connect(this,&MainWindow::ReadFile,adminLog,&AdminLog::ReadFile); //用于响应拖拽文件
+}
 
+void MainWindow::DisplayAll(const QList<Log> &logList,int start)
+{
+    qDebug() << QString("进入DispalyAll响应函数");
     int serial,row,column;
     serial = 0;
     row = logList.size();
     column = 4;    //默认日志分为四个字段
     this->InitTableHead();
-    ui->tableWidget->setRowCount(row);
-//    ui->tableWidget->resizeRowsToContents();   //设定所有Row的宽度根据单元格内文本框度自行调整
-//    ui->tableWidget->resizeColumnsToContents();
-    for( auto  iter = logList.cbegin();iter != logList.cend(); iter++){
-        DisplayOne(*iter,serial++);
 
+    ui->tableWidget->setRowCount(row);
+    for( auto  iter = logList.cbegin();iter != logList.cend(); iter++){
+/*            qDebug() << iter->logData <<"-" <<iter->softwareVersion <<"-"
+                     << iter->logType << "-" << iter->logContent <<endl;*/
+        DisplayOne(*iter,serial++);
     }
 
 }
@@ -113,4 +126,26 @@ void MainWindow::findNext()
     QString searchKeyWord = lineEdit->text();
 
     //未完成搜索功能
+}
+
+void MainWindow::dragEnterEvent(QDragEnterEvent *event)   //拖动进入事件
+{
+
+    if(event->mimeData()->hasUrls())     //拖动的数据中是否含有URL
+        event->acceptProposedAction();    //接收事件
+    else
+        event->ignore();
+}
+
+void MainWindow::dropEvent(QDropEvent *event)   //放下事件
+{
+
+    const QMimeData *mimeData = event->mimeData();   //获取拖动数据
+    if(mimeData->hasUrls()){
+        QList<QUrl>urlList = mimeData->urls();   //获取文件URl
+        QString fileName = urlList.at(0).toLocalFile();
+        if(!fileName.isEmpty()){   //不为空则开始讲文件路径传送到指定函数进行读取
+            emit ReadFile(fileName);
+        }
+    }
 }
