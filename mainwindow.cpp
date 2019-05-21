@@ -1,10 +1,6 @@
 #include "mainwindow.h"
 #include "ui_mainwindow.h"
 #include <QFont>
-#include <QLineEdit>
-#include <QDialog>
-#include <QPushButton>
-#include <QVBoxLayout>
 #include <QDragEnterEvent>
 #include <QUrl>
 #include <QMimeData>
@@ -43,11 +39,13 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     ui->tableWidget->setItem(serial,2,itemSoftwareVersion);
     ui->tableWidget->setItem(serial,3,itemlogType);
     ui->tableWidget->setItem(serial,4,itemlogContent);
-    ui->tableWidget->verticalHeader()->setDefaultSectionSize(25);
+//    ui->tableWidget->verticalHeader()->setDefaultSectionSize(25);
 
-    QStringList headList;
-    headList << QStringLiteral("Serial") << QStringLiteral("Time") << QStringLiteral("SoftwareVersion")
-             << QStringLiteral("Type") << QStringLiteral("Content");
+
+
+/*    headList << QStringLiteral("序号") << QStringLiteral("记录时间") << QStringLiteral("应用版本")
+             << QStringLiteral("线程ID") << QStringLiteral("日志级别") << QStringLiteral("出错类")
+             << QStringLiteral("错误描述");
 
     ui->tableWidget->setHorizontalHeaderLabels(headList);
     ui->tableWidget->horizontalHeader()->setStyleSheet("QHeaderView::section{background:whitesmoke;}");
@@ -56,7 +54,7 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     ui->tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
     ui->tableWidget->setAlternatingRowColors(true);
     ui->tableWidget->verticalHeader()->setVisible(false);
-    ui->tableWidget->horizontalHeader()->setStretchLastSection(true);
+    ui->tableWidget->horizontalHeader()->setStretchLastSection(true);*/
 
     for(int i = 0;i < 4 ;i++){
         ui->tableWidget->item(serial,i)->setTextAlignment(Qt::AlignCenter);
@@ -72,11 +70,12 @@ void MainWindow::InitTableHead()
     ui->tableWidget->horizontalHeader()->setFont(font);
 
     ui->tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);    //设置表格不可编辑
-    ui->tableWidget->setColumnCount(5);
+    ui->tableWidget->setColumnCount(7);
 
     QStringList headList;
-    headList << QStringLiteral("Serial") << QStringLiteral("Time") << QStringLiteral("SoftwareVersion")
-             << QStringLiteral("Type") << QStringLiteral("Content");
+    headList << QString("序号") << QString("记录时间") << QString("应用版本")
+             << QString("线程ID") << QString("日志级别") << QString("出错类别")
+             << QString("错误描述");
 
     ui->tableWidget->setHorizontalHeaderLabels(headList);
     ui->tableWidget->horizontalHeader()->setStyleSheet("QHeaderView::section{background:whitesmoke;}");
@@ -98,34 +97,22 @@ void MainWindow::Conn()
     connect(this,&MainWindow::ReadFile,adminLog,&AdminLog::ReadFile); //用于响应拖拽文件
 }
 
-void MainWindow::DisplayAll(const QList<Log> &logList,int start)
+void MainWindow::DisplayAll(const QList<Log> &logList,int start)   //start记录新读入的文件在logList中的下标
 {
     qDebug() << QString("进入DispalyAll响应函数");
     int serial,row,column;
     serial = 0;
     row = logList.size();
-    column = 4;    //默认日志分为四个字段
+    column = 7;    //日志字段包含六个，另外加上字段序号
     this->InitTableHead();
 
     ui->tableWidget->setRowCount(row);
     for( auto  iter = logList.cbegin();iter != logList.cend(); iter++){
 /*            qDebug() << iter->logData <<"-" <<iter->softwareVersion <<"-"
                      << iter->logType << "-" << iter->logContent <<endl;*/
-        DisplayOne(*iter,serial++);
+//        DisplayOne(*iter,serial++);
     }
 
-}
-
-void MainWindow::logFind()
-{
-    findDialog->show();
-}
-
-void MainWindow::findNext()
-{
-    QString searchKeyWord = lineEdit->text();
-
-    //未完成搜索功能
 }
 
 void MainWindow::dragEnterEvent(QDragEnterEvent *event)   //拖动进入事件
@@ -148,4 +135,19 @@ void MainWindow::dropEvent(QDropEvent *event)   //放下事件
             emit ReadFile(fileName);
         }
     }
+}
+
+void MainWindow::keyPressEvent(QKeyEvent *event)  //键盘按下事件
+{
+    if(event->modifiers() == Qt::ControlModifier){
+        if(event->key() == Qt::Key_F)
+            setWindowState(Qt::WindowMaximized);
+    }
+    else
+        QWidget::keyReleaseEvent(event);
+}
+
+void MainWindow::keyReleaseEvent(QKeyEvent *event)
+{
+    //函数体
 }

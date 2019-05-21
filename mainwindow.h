@@ -9,6 +9,7 @@ class MainWindow;
 
 class QLineEdit;
 class QDialog;
+
 class MainWindow : public QMainWindow
 {
     Q_OBJECT
@@ -22,21 +23,18 @@ public:
 
 private:
     Ui::MainWindow *ui;
-    QLineEdit *lineEdit;
-
-//暂时未使用
-    QDialog *findDialog;
     AdminLog *adminLog;
-//暂时未使用
 
 private slots:
     void DisplayAll(const QList<Log>& logList,int start);
-    void logFind();
-    void findNext();
 
 protected:
     void dragEnterEvent(QDragEnterEvent *event);  //拖动进入事件
     void dropEvent(QDropEvent *event);   //放下事件
+
+    //以下函数未使用
+    void keyPressEvent(QKeyEvent *event); //键盘按下事件
+    void keyReleaseEvent(QKeyEvent *event);  // 键盘释放事件
 
 signals:
     void ReadFile(const QString& fileName);    //包含文件名的信号

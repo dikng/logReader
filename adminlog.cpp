@@ -49,7 +49,66 @@ bool AdminLog::ReadFile()
 /*使用atEnd()作为读文件结束条件并不能将整个文件读入，
  * 遗漏的行数和文件内总行数成正比
  */
-bool AdminLog::ReadFile(const QString& fileName)
+void AdminLog::ReadFile(const QString& fileName)   //根据文件名选择对应的文件读取方式
+{
+    QString patternInfo = {".+?_info.txt\\b"};
+    QString patternFatal = {".+?_fatal.txt\\b"};
+    QString patternMessage = {".+?_message.txt\\b"};
+
+    QRegularExpression reInfo(patternInfo);
+    QRegularExpression reFatal(patternFatal);
+    QRegularExpression reMessage(patternMessage);
+
+    if(reInfo.match(fileName).hasMatch())
+        ReadFile_info(fileName);
+    else if(reMessage.match(fileName).hasMatch())
+        ReadFile_message(fileName);
+    else if(reFatal.match(fileName).hasMatch())
+        ReadFile_fatal(fileName);
+    else
+        qDebug() << QString("can not read the file");
+}
+
+bool AdminLog::IsNewStr(const QString &newLine)
+{
+    QRegularExpression re("\\d{4}-\\d{2}-\\d{2}");
+    QRegularExpressionMatch match = re.match(newLine);
+    if(match.hasMatch())
+        return true;
+    else
+        return false;
+}
+
+Log *AdminLog::GetNewLog(const QString &str1)
+{
+    QString pattern("\\[([-0-9\\s:,]+)\\]\\[([0-9\\.]+)\\]([a-zA-Z]+)\\s(.+)");
+    QRegularExpression re(pattern);
+    QRegularExpressionMatch match = re.match(str1);
+    if(match.hasMatch()){
+        Log *newLog = new Log();
+        newLog->logData = match.captured(1);
+        newLog->softwareVersion = match.captured(2);
+        newLog->logLevel = match.captured(3);
+        newLog->logContent = match.captured(4);
+        return newLog;
+    }
+    else
+        return nullptr;
+}
+
+void AdminLog::EmitSignalToMainwindowsIfReadSucc()
+{
+    //被废弃
+}
+
+void AdminLog::OutputToConsole()
+{
+    for(auto iter = logList.begin();iter != logList.end();iter++){
+        iter->Output();
+    }
+}
+
+void AdminLog::ReadFile_info(const QString &fileName)
 {
     char space = ' ';
     bool flag;
@@ -79,66 +138,72 @@ bool AdminLog::ReadFile(const QString& fileName)
     emit SendLogListToMainWindows(logList,lastIndex);
     lastIndex = lastIndex + logList.size() - 1;
 
-    return true;
 }
 
-bool AdminLog::IsNewStr(const QString &newLine)
+void AdminLog::ReadFile_message(const QString &fileName)
 {
-    QRegularExpression re("\\d{4}-\\d{2}-\\d{2}");
-    QRegularExpressionMatch match = re.match(newLine);
-    if(match.hasMatch())
-        return true;
-    else
-        return false;
+    QFile file(fileName);
+    QString str;
+    if(!file.open(QIODevice::ReadOnly ))
+        qDebug() << file.errorString();
+    QTextStream in(&file);
+    while(!file.atEnd()){
+        str = in.readAll();
+ //       qDebug() << str;
+       SplitWord(str);
+
+    }
 }
 
-Log *AdminLog::GetNewLog(const QString &str1)
+void AdminLog::ReadFile_fatal(const QString &fileName)
 {
-    QString pattern("\\[([-0-9\\s:,]+)\\]\\[([0-9\\.]+)\\]([a-zA-Z]+)\\s(.+)");
-    QRegularExpression re(pattern);
-    QRegularExpressionMatch match = re.match(str1);
+    qDebug() << fileName << endl;
+}
+
+void AdminLog::SplitWord(const QString &str)
+{
+//    QString patternData= {"\\s([0-9\\.]+)\\r\\n.+?\\s([-0-9\\s:,]+)\\s*.+?(\\d+).+?"};
+//\s([0-9\.]+)\s*?.+?\s([-0-9\s:,]+)\s.+?(\d+)\]\s*?.+?([a-zA-Z]+)\s*.+?\s(.+)\s*?.+?\s([a-zA-Z]+)\s*(.*)\s*?  用于在线检测
+//    QString patternData= {"\\s([0-9\\.]+)\\s*?.+?\\s([-0-9\\s:,]+).+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?\\s(.+)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\s*?"};
+    QString patternData= {"\\s([0-9\\.]+)\\s*?.+?\\s([-0-9:]+\\s[0-9:,]+)\\s*?.+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?\\s*(\\b[a-zA-Z].*-)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\r\\n"};
+    QRegularExpression reData(patternData);
+    QRegularExpressionMatch match = reData.match(str);
     if(match.hasMatch()){
-        Log *newLog = new Log();
-        newLog->logData = match.captured(1);
-        newLog->softwareVersion = match.captured(2);
-        newLog->logType = match.captured(3);
-        newLog->logContent = match.captured(4);
-        return newLog;
+        for(int i = 0;i <= match.lastCapturedIndex(); i++)
+            qDebug() << match.captured(i) << endl;
     }
     else
-        return nullptr;
-}
-
-void AdminLog::EmitSignalToMainwindowsIfReadSucc()
-{
-    //被废弃
-}
-
-void AdminLog::OutputToConsole()
-{
-    for(auto iter = logList.begin();iter != logList.end();iter++){
-        iter->Output();
-    }
+      qDebug() << "failed to match";
 }
 
 Log::Log()
 {
     this->logData = nullptr;
     this->softwareVersion = nullptr;
-    this->logType = nullptr;
+    this->logLevel = nullptr;
     this->logContent = nullptr;
+    this->threadID = nullptr;
+    this->errorcategories = nullptr;
 }
 
-Log::Log(QString data, QString version, QString type, QString content)
+Log::Log(QString data, QString version, QString type, QString content,QString errorcategories,QString threadId)
 {
     this->SetLogData(data);
     this->SetSoftwareVer(version);
-    this->SetLogType(type);
+    this->SetlogLevel(type);
     this->SetLogContent(content);
+    this->SetErrorCategories(errorcategories);
+    this->SetThreadId(threadId);
 }
 
 void Log::Output()
 {
-    qDebug() << logData <<softwareVersion << logType  << logContent <<endl;
+    qDebug() << QString("应用版本：") << softwareVersion << endl;
+    qDebug() << QString("记录时间：") << logData << endl;
+    qDebug() << QString("线程ID") << threadID << endl;
+    qDebug() << QString("日志级别：") << logLevel << endl;
+    qDebug() << QString("出错类：") << errorcategories << endl;
+    qDebug() <<QString("错误描述：") << logContent << endl;
+    qDebug() << "****************************************************************" << endl;
 }
 
