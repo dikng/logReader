@@ -144,12 +144,14 @@ void AdminLog::ReadFile_message(const QString &fileName)
 {
     QFile file(fileName);
     QString str;
-    if(!file.open(QIODevice::ReadOnly ))
+    if(!file.open(QIODevice::ReadOnly | QIODevice::Text))
         qDebug() << file.errorString();
     QTextStream in(&file);
     while(!file.atEnd()){
         str = in.readAll();
- //       qDebug() << str;
+        str.replace(QString("\n"), QString(" "));
+        str.replace(QString("*"),QString(""));
+//        qDebug() << str;
        SplitWord(str);
 
     }
@@ -164,14 +166,30 @@ void AdminLog::SplitWord(const QString &str)
 {
 //    QString patternData= {"\\s([0-9\\.]+)\\r\\n.+?\\s([-0-9\\s:,]+)\\s*.+?(\\d+).+?"};
 //\s([0-9\.]+)\s*?.+?\s([-0-9\s:,]+)\s.+?(\d+)\]\s*?.+?([a-zA-Z]+)\s*.+?\s(.+)\s*?.+?\s([a-zA-Z]+)\s*(.*)\s*?  用于在线检测
-//QString patternData= {"\\s([0-9\\.]+)\\s*?.+?\\s([-0-9\\s:,]+).+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?\\s(.+)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\s*?"};
-    QString patternData= {"([0-9\\.]+)\\s*?.+?\\s([-0-9:]+\\s[0-9:,]+)\\s*?.+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?"
-                          "\\s*(\\b[a-zA-Z].*-)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\r\\n"};
+//QString patternData= {"\\s([0-9\\.]+)\\s*?.+?\\s([-0-9\\s:,]+).+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?\\s(.+)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\s*?"};   
+/*    QString patternData= {"\\*+?\\s*.+?\\s*?([0-9\\.]+)\\s*?.+?\\s([-0-9:]+\\s[0-9:,]+)\\s*?.+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?"
+                          "\\s*(\\b[a-zA-Z].*-)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\r\\s+(?=\\*+?)"};*/
+/*    QString patternData= {"\\*+?\\s*.+?\\s*?([0-9\\.]+)\\s*?.+?\\s([-0-9:]+\\s[0-9:,]+)\\s*?.+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?"
+                              "\\s*(\\b[a-zA-Z].*-)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\r\\s+(?=\\*+?)"};*/
+
+qDebug() << "enter the SpliteWOrd";
+
+    QString patternData = {"\\s+?(?<Version>[0-9\\.]+).+?\\s+?(?<Time>[-0-9]+ [0-9:,]+).+?(?<ThreadID>[0-9]+).+?(?<LogLevel>[a-zA-Z]+)"
+                           ".+?(?<ErrorClass>[a-zA-Z].+? -)\\s+?.+?\\s+?(?<ErrorContent>.+?)\\s+?(?=应用版本)"};
+
+    int curPos = 0;
+    QString tempStr = str;
     QRegularExpression reData(patternData);
-    QRegularExpressionMatch match = reData.match(str);
-    if(match.hasMatch()){
-        for(int i = 0;i <= match.lastCapturedIndex(); i++)
-            qDebug() << match.captured(i) << endl;
+    QRegularExpressionMatch match = reData.match(tempStr);
+    while(match.hasMatch()){
+        for(int i = 0;i <= 0; i++){
+            qDebug() << match.captured(i) << endl ;
+        }
+        qDebug() << "***************************" << endl;
+        curPos += match.capturedLength();
+//        qDebug() << tempStr << "***************************" << endl;
+        tempStr = str.mid(curPos,str.length());
+        match = reData.match(tempStr);
     }
 }
 
