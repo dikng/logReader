@@ -175,20 +175,20 @@ void AdminLog::SplitWord(const QString &str)
 qDebug() << "enter the SpliteWOrd";
 
     QString patternData = {"\\s+?(?<Version>[0-9\\.]+).+?\\s+?(?<Time>[-0-9]+ [0-9:,]+).+?(?<ThreadID>[0-9]+).+?(?<LogLevel>[a-zA-Z]+)"
-                           ".+?(?<ErrorClass>[a-zA-Z].+? -)\\s+?.+?\\s+?(?<ErrorContent>.+?)\\s+?(?=应用版本)"};
+                           ".+?(?<ErrorClass>[a-zA-Z].+? -)\\s+?.+?\\s+?(?<ErrorContent>.+?)\\s+?(?=应用版本|\\s+?)"};
 
     int curPos = 0;
     QString tempStr = str;
     QRegularExpression reData(patternData);
     QRegularExpressionMatch match = reData.match(tempStr);
     while(match.hasMatch()){
-        for(int i = 0;i <= 0; i++){
+        for(int i = 0;i <= match.lastCapturedIndex(); i++){
             qDebug() << match.captured(i) << endl ;
         }
         qDebug() << "***************************" << endl;
-        curPos += match.capturedLength();
+        curPos += match.capturedLength(0);
 //        qDebug() << tempStr << "***************************" << endl;
-        tempStr = str.mid(curPos,str.length());
+        tempStr = str.mid(curPos - 1,str.length());
         match = reData.match(tempStr);
     }
 }
