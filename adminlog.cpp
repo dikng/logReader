@@ -79,7 +79,7 @@ bool AdminLog::IsNewStr_info(const QString &newLine)    //判断newLine是否为
         return false;
 }
 
-Log *AdminLog::GetNewLog_info(const QString &str1)
+Log *AdminLog::GetNewLog_info(const QString &str1,QString source)
 {
     QString pattern("\\[([-0-9\\s:,]+)\\]\\[([0-9\\.]+)\\]([a-zA-Z]+)\\s(.+)");
     QRegularExpression re(pattern);
@@ -90,13 +90,14 @@ Log *AdminLog::GetNewLog_info(const QString &str1)
         newLog->softwareVersion = match.captured(2);
         newLog->logLevel = match.captured(3);
         newLog->logContent = match.captured(4);
+        newLog->logSource = source;
         return newLog;
     }
     else
         return nullptr;
 }
 
-Log *AdminLog::GetNewLog_message(const QRegularExpressionMatch &match)    //返回一个新的日志对象
+Log *AdminLog::GetNewLog_message(const QRegularExpressionMatch &match,QString source)    //返回一个新的日志对象
 {
     Log* newLog = new Log();
     newLog->SetSoftwareVer(match.captured(1));
@@ -105,7 +106,7 @@ Log *AdminLog::GetNewLog_message(const QRegularExpressionMatch &match)    //返�
     newLog->SetlogLevel(match.captured(4));
     newLog->SetErrorCategories(match.captured(5));
     newLog->SetLogContent(match.captured(6));
-
+    newLog->SetLogSource(source);
     return newLog;
 }
 
@@ -125,8 +126,9 @@ void AdminLog::ReadFile_info(const QString &fileName)   //读取_info.txt的日�
 {
     char space = ' ';
     bool flag;
-    QString str2;
+    QString str2,source;
 
+    source = ShellOrCloud(fileName);    //日志来源
     QFile file(fileName);
     if(!file.open(QIODevice::ReadOnly ))
         qDebug() << file.errorString();
@@ -139,7 +141,7 @@ void AdminLog::ReadFile_info(const QString &fileName)   //读取_info.txt的日�
             str2 = str2 + space +str;
         }
         else{
-            Log *temp = GetNewLog_info(str2);
+            Log *temp = GetNewLog_info(str2,source);
             if(nullptr != temp)
                 logList.append(*temp);
             str2 = str;
@@ -147,7 +149,7 @@ void AdminLog::ReadFile_info(const QString &fileName)   //读取_info.txt的日�
 
     }
     file.close();
-    this->OutputToConsole();
+//    this->OutputToConsole();
     emit SendLogListToMainWindows(logList,lastIndex);    //将日志存入logList之后，发送显示信号到mainwindow对象进行日志显示
     lastIndex = logList.size() - 1;
 
@@ -156,7 +158,8 @@ void AdminLog::ReadFile_info(const QString &fileName)   //读取_info.txt的日�
 void AdminLog::ReadFile_message(const QString &fileName)    //读取_message.txt的日志文件
 {
     QFile file(fileName);
-    QString str;
+    QString str, source;
+    source = ShellOrCloud(fileName);    //日志来源
     if(!file.open(QIODevice::ReadOnly | QIODevice::Text))
         qDebug() << file.errorString();
     QTextStream in(&file);
@@ -166,7 +169,7 @@ void AdminLog::ReadFile_message(const QString &fileName)    //读取_message.txt
     str.replace(QString("*"),QString(""));
 
 //    qDebug() << str;
-    PacketCapture_message(str + " ");   //末尾添加空格是为了解决无法捕获最后一条日志的问题
+    PacketCapture_message(str + " ",source);   //末尾添加空格是为了解决无法捕获最后一条日志的问题
 
     file.close();
 //    this->OutputToConsole();
@@ -176,10 +179,12 @@ void AdminLog::ReadFile_message(const QString &fileName)    //读取_message.txt
 
 void AdminLog::ReadFile_fatal(const QString &fileName)
 {
+    QString source;
+    source = ShellOrCloud(fileName);
     qDebug() << fileName << endl;
 }
 
-void AdminLog::PacketCapture_message(const QString &str)
+void AdminLog::PacketCapture_message(const QString &str,QString source)
 {
 //    QString patternData= {"\\s([0-9\\.]+)\\r\\n.+?\\s([-0-9\\s:,]+)\\s*.+?(\\d+).+?"};
 //\s([0-9\.]+)\s*?.+?\s([-0-9\s:,]+)\s.+?(\d+)\]\s*?.+?([a-zA-Z]+)\s*.+?\s(.+)\s*?.+?\s([a-zA-Z]+)\s*(.*)\s*?  用于在线检测
@@ -199,12 +204,25 @@ void AdminLog::PacketCapture_message(const QString &str)
 //    qDebug() << str << endl;
     QRegularExpressionMatch match = reData.match(tempStr);
     while(match.hasMatch()){
-        logList.append(*GetNewLog_message(match));   //添加新日志到日志列表中
+        logList.append(*GetNewLog_message(match,source));   //添加新日志到日志列表中
 //        qDebug() << match.captured() << "*************************" << endl;
         curPos += match.capturedLength(0);             //记录已匹配到的字符串的长度
         tempStr = str.mid(curPos - 1,str.length());   //获取未进行匹配的子串
         match = reData.match(tempStr);
     }
+}
+
+QString AdminLog::ShellOrCloud(const QString &fileName)   //判断日志来源于Cloud还是Shell
+{
+//    qDebug() << fileName << endl;
+    QString pattern ={"[A-Z].+?[0-9]{8}_[0-9]+,[0-9]+.+"};
+    QRegularExpression re(pattern);
+    QRegularExpressionMatch match = re.match(fileName);
+    if(match.hasMatch()){
+        return "Cloud";
+    }
+    else
+        return "Shell";
 }
 
 Log::Log()
@@ -215,9 +233,10 @@ Log::Log()
     this->logContent = nullptr;
     this->threadID = nullptr;
     this->errorcategories = nullptr;
+    this->logSource = nullptr;
 }
 
-Log::Log(QString data, QString version, QString type, QString content,QString errorcategories,QString threadId)
+Log::Log(QString data, QString version, QString type, QString content,QString errorcategories,QString threadId,QString source)
 {
     this->SetLogData(data);
     this->SetSoftwareVer(version);
@@ -225,16 +244,18 @@ Log::Log(QString data, QString version, QString type, QString content,QString er
     this->SetLogContent(content);
     this->SetErrorCategories(errorcategories);
     this->SetThreadId(threadId);
+    this->SetLogSource(source);
 }
 
 void Log::Output()
 {
-    qDebug() << QString("应用版本") << softwareVersion << endl;
-    qDebug() << QString("记录时间") << logData << endl;
+    qDebug() << QString("应用版本: ") << softwareVersion << endl;
+    qDebug() << QString("记录时间: ") << logData << endl;
     qDebug() << QString("线程ID") << threadID << endl;
-    qDebug() << QString("日志级别") << logLevel << endl;
-    qDebug() << QString("出错类别") << errorcategories << endl;
-    qDebug() <<QString("错误描述") << logContent << endl;
+    qDebug() << QString("来源: ") << logSource << endl;
+    qDebug() << QString("日志级别: ") << logLevel << endl;
+    qDebug() << QString("出错类别: ") << errorcategories << endl;
+    qDebug() <<QString("错误描述: ") << logContent << endl;
     qDebug() << "****************************************************************" << endl;
 }
 

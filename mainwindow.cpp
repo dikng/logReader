@@ -34,6 +34,7 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     QTableWidgetItem *itemLogLevel = new QTableWidgetItem(log.logLevel);
     QTableWidgetItem *itemThreadID = new QTableWidgetItem(log.threadID);
     QTableWidgetItem *itemErrorCategories = new QTableWidgetItem(log.errorcategories);
+    QTableWidgetItem *itemLogSource = new QTableWidgetItem(log.logSource);
     QTableWidgetItem *itemLogContent = new QTableWidgetItem(tr(log.logContent.toStdString().c_str()));
 
     ui->tableWidget->setItem(serial,0,itemSerial);
@@ -42,7 +43,8 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     ui->tableWidget->setItem(serial,3,itemThreadID);
     ui->tableWidget->setItem(serial,4,itemLogLevel);
     ui->tableWidget->setItem(serial,5,itemErrorCategories);
-    ui->tableWidget->setItem(serial,6,itemLogContent);
+    ui->tableWidget->setItem(serial,6,itemLogSource);
+    ui->tableWidget->setItem(serial,7,itemLogContent);
 //    ui->tableWidget->verticalHeader()->setDefaultSectionSize(25);
 
 
@@ -60,7 +62,7 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     ui->tableWidget->verticalHeader()->setVisible(false);
     ui->tableWidget->horizontalHeader()->setStretchLastSection(true);*/
 
-    for(int i = 0;i < 6 ;i++){
+    for(int i = 0;i < 7 ;i++){
         ui->tableWidget->item(serial,i)->setTextAlignment(Qt::AlignCenter);
         if(2 > serial)
             ui->tableWidget->resizeColumnToContents(i);
@@ -74,12 +76,12 @@ void MainWindow::InitTableHead()
     ui->tableWidget->horizontalHeader()->setFont(font);
 
     ui->tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);    //设置表格不可编辑
-    ui->tableWidget->setColumnCount(7);
+    ui->tableWidget->setColumnCount(8);
 
     QStringList headList;
     headList << QString("序号") << QString("记录时间") << QString("应用版本")
              << QString("线程ID") << QString("日志级别") << QString("出错类别")
-             << QString("错误描述");
+             << QString("来源") << QString("错误描述");
 
     ui->tableWidget->setHorizontalHeaderLabels(headList);
     ui->tableWidget->horizontalHeader()->setStyleSheet("QHeaderView::section{background:whitesmoke;}");
@@ -107,7 +109,7 @@ void MainWindow::DisplayAll(const QList<Log> &logList,int start)   //start记录
     int serial,row,column;
     serial = 0;
     row = logList.size();
-    column = 7;    //日志字段包含六个，另外加上字段序号
+    column = 8;    //日志字段包含7个，另外加上字段序号
     this->InitTableHead();
 
     ui->tableWidget->setRowCount(row);
@@ -130,7 +132,7 @@ void MainWindow::dragEnterEvent(QDragEnterEvent *event)   //拖动进入事件
 
 void MainWindow::dropEvent(QDropEvent *event)   //放下事件
 {
-
+//    qDebug() << "Enter the dropEvent";
     const QMimeData *mimeData = event->mimeData();   //获取拖动数据
     if(mimeData->hasUrls()){
         QList<QUrl>urlList = mimeData->urls();   //获取文件URl
