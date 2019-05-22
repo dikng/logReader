@@ -51,9 +51,9 @@ bool AdminLog::ReadFile()
  */
 void AdminLog::ReadFile(const QString& fileName)   //根据文件名选择对应的文件读取方式
 {
-    QString patternInfo = {".+?_info.txt\\b"};
-    QString patternFatal = {".+?_fatal.txt\\b"};
-    QString patternMessage = {".+?_message.txt\\b"};
+    QString patternInfo = {".+?_info.*.txt\\b"};
+    QString patternFatal = {".+?_fatal.*.txt\\b"};
+    QString patternMessage = {".+?_message.*.txt\\b"};
 
     QRegularExpression reInfo(patternInfo);
     QRegularExpression reFatal(patternFatal);
@@ -164,16 +164,15 @@ void AdminLog::SplitWord(const QString &str)
 {
 //    QString patternData= {"\\s([0-9\\.]+)\\r\\n.+?\\s([-0-9\\s:,]+)\\s*.+?(\\d+).+?"};
 //\s([0-9\.]+)\s*?.+?\s([-0-9\s:,]+)\s.+?(\d+)\]\s*?.+?([a-zA-Z]+)\s*.+?\s(.+)\s*?.+?\s([a-zA-Z]+)\s*(.*)\s*?  用于在线检测
-//    QString patternData= {"\\s([0-9\\.]+)\\s*?.+?\\s([-0-9\\s:,]+).+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?\\s(.+)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\s*?"};
-    QString patternData= {"\\s([0-9\\.]+)\\s*?.+?\\s([-0-9:]+\\s[0-9:,]+)\\s*?.+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?\\s*(\\b[a-zA-Z].*-)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\r\\n"};
+//QString patternData= {"\\s([0-9\\.]+)\\s*?.+?\\s([-0-9\\s:,]+).+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?\\s(.+)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\s*?"};
+    QString patternData= {"([0-9\\.]+)\\s*?.+?\\s([-0-9:]+\\s[0-9:,]+)\\s*?.+?(\\d+)\\]\\s*?.+?([a-zA-Z]+)\\s*.+?"
+                          "\\s*(\\b[a-zA-Z].*-)\\s*?.+?\\s([a-zA-Z]+)\\s*(.*)\\r\\n"};
     QRegularExpression reData(patternData);
     QRegularExpressionMatch match = reData.match(str);
     if(match.hasMatch()){
         for(int i = 0;i <= match.lastCapturedIndex(); i++)
             qDebug() << match.captured(i) << endl;
     }
-    else
-      qDebug() << "failed to match";
 }
 
 Log::Log()
@@ -198,12 +197,12 @@ Log::Log(QString data, QString version, QString type, QString content,QString er
 
 void Log::Output()
 {
-    qDebug() << QString("应用版本：") << softwareVersion << endl;
-    qDebug() << QString("记录时间：") << logData << endl;
+    qDebug() << QString("应用版本") << softwareVersion << endl;
+    qDebug() << QString("记录时间") << logData << endl;
     qDebug() << QString("线程ID") << threadID << endl;
-    qDebug() << QString("日志级别：") << logLevel << endl;
-    qDebug() << QString("出错类：") << errorcategories << endl;
-    qDebug() <<QString("错误描述：") << logContent << endl;
+    qDebug() << QString("日志级别") << logLevel << endl;
+    qDebug() << QString("出错类别") << errorcategories << endl;
+    qDebug() <<QString("错误描述") << logContent << endl;
     qDebug() << "****************************************************************" << endl;
 }
 
