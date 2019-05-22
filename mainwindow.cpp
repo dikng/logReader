@@ -31,14 +31,18 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     QTableWidgetItem *itemSerial = new QTableWidgetItem(QString::number(serial + 1));
     QTableWidgetItem *itemLogData = new QTableWidgetItem(log.logData);
     QTableWidgetItem *itemSoftwareVersion = new QTableWidgetItem(log.softwareVersion);
-    QTableWidgetItem *itemlogType = new QTableWidgetItem(log.logType);
-    QTableWidgetItem *itemlogContent = new QTableWidgetItem(tr(log.logContent.toStdString().c_str()));
+    QTableWidgetItem *itemLogLevel = new QTableWidgetItem(log.logLevel);
+    QTableWidgetItem *itemThreadID = new QTableWidgetItem(log.threadID);
+    QTableWidgetItem *itemErrorCategories = new QTableWidgetItem(log.errorcategories);
+    QTableWidgetItem *itemLogContent = new QTableWidgetItem(tr(log.logContent.toStdString().c_str()));
 
     ui->tableWidget->setItem(serial,0,itemSerial);
     ui->tableWidget->setItem(serial,1,itemLogData);
     ui->tableWidget->setItem(serial,2,itemSoftwareVersion);
-    ui->tableWidget->setItem(serial,3,itemlogType);
-    ui->tableWidget->setItem(serial,4,itemlogContent);
+    ui->tableWidget->setItem(serial,3,itemThreadID);
+    ui->tableWidget->setItem(serial,4,itemLogLevel);
+    ui->tableWidget->setItem(serial,5,itemErrorCategories);
+    ui->tableWidget->setItem(serial,6,itemLogContent);
 //    ui->tableWidget->verticalHeader()->setDefaultSectionSize(25);
 
 
@@ -56,7 +60,7 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     ui->tableWidget->verticalHeader()->setVisible(false);
     ui->tableWidget->horizontalHeader()->setStretchLastSection(true);*/
 
-    for(int i = 0;i < 4 ;i++){
+    for(int i = 0;i < 6 ;i++){
         ui->tableWidget->item(serial,i)->setTextAlignment(Qt::AlignCenter);
         if(2 > serial)
             ui->tableWidget->resizeColumnToContents(i);
@@ -110,7 +114,7 @@ void MainWindow::DisplayAll(const QList<Log> &logList,int start)   //start记录
     for( auto  iter = logList.cbegin();iter != logList.cend(); iter++){
 /*            qDebug() << iter->logData <<"-" <<iter->softwareVersion <<"-"
                      << iter->logType << "-" << iter->logContent <<endl;*/
-//        DisplayOne(*iter,serial++);
+        DisplayOne(*iter,serial++);
     }
 
 }
