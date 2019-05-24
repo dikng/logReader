@@ -225,6 +225,11 @@ QString AdminLog::ShellOrCloud(const QString &fileName)   //判断日志来源�
         return "Shell";
 }
 
+void AdminLog::GetLogClicked(int row, int column)
+{
+    emit ToLogDetailWindow(logList.at(row));
+}
+
 Log::Log()
 {
     this->logData = nullptr;
@@ -257,5 +262,13 @@ void Log::Output()
     qDebug() << QString("出错类别: ") << errorcategories << endl;
     qDebug() <<QString("错误描述: ") << logContent << endl;
     qDebug() << "****************************************************************" << endl;
+}
+
+const QString& Log::ToString()
+{
+    QString str = QString("记录时间: ") + logData + QString("\n应用版本: ") + softwareVersion + QString("\n线程ID: ") + threadID
+            + QString("\n日志级别: ") + logLevel + QString("\n出错类: ") + errorcategories + QString("\n来源: ")
+            + logSource + QString("\n错误描述:") + logContent;
+    return str;
 }
 

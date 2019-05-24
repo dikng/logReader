@@ -9,6 +9,7 @@ class MainWindow;
 
 class QLineEdit;
 class QDialog;
+class QTableWidgetItem;
 
 class MainWindow : public QMainWindow
 {
@@ -27,6 +28,7 @@ private:
 
 private slots:
     void DisplayAll(const QList<Log>& logList,int start);
+    void LogDetailWindow(const Log& log);
 
 protected:
     void dragEnterEvent(QDragEnterEvent *event);  //拖动进入事件
@@ -38,6 +40,7 @@ protected:
 
 signals:
     void ReadFile(const QString& fileName);    //包含文件名的信号
+
 };
 
 #endif // MAINWINDOW_H

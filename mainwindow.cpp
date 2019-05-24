@@ -108,11 +108,14 @@ void MainWindow::Conn()
 {
     connect(adminLog,SIGNAL(SendLogListToMainWindows(const QList<Log>&,int )),this,SLOT(DisplayAll(const QList<Log>&,int)));   //将logList发送到MianWindows中显示
     connect(this,&MainWindow::ReadFile,adminLog,&AdminLog::ReadFile); //用于响应拖拽文件
+    connect(ui->tableWidget,&QTableWidget::cellClicked,adminLog,&AdminLog::GetLogClicked);
+    connect(adminLog,&AdminLog::ToLogDetailWindow,this,&MainWindow::LogDetailWindow);
 }
+
 
 void MainWindow::DisplayAll(const QList<Log> &logList,int start)   //start记录新读入的文件在logList中的下标
 {
-    qDebug() << QString("进入DispalyAll响应函数");
+//    qDebug() << QString("进入DispalyAll响应函数");
     int serial,row,column;
     serial = 0;
     row = logList.size();
@@ -132,6 +135,14 @@ void MainWindow::DisplayAll(const QList<Log> &logList,int start)   //start记录
     ui->tableWidget->setCellWidget(1,4,comBox);*/
 
 
+}
+
+void MainWindow::LogDetailWindow(const Log& log)
+{
+    QString logDetail= QString("记录时间: ") + log.logData + QString("\n应用版本: ") + log.softwareVersion + QString("\n线程ID: ") + log.threadID
+            + QString("\n日志级别: ") + log.logLevel + QString("\n出错类别: ") + log.errorcategories + QString("\n来源: ")
+            + log.logSource + QString("\n错误描述:") + log.logContent;
+    ui->label->setText(logDetail);
 }
 
 void MainWindow::dragEnterEvent(QDragEnterEvent *event)   //拖动进入事件

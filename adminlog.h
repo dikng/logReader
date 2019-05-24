@@ -10,6 +10,7 @@
 
 struct Log    //存储单条日志
 {
+
     Log();
     Log(QString data,QString version,QString type,QString content,QString errorcategories,QString threadId,QString source);
 
@@ -35,6 +36,7 @@ struct Log    //存储单条日志
     const QString& GetLogSource(){return logSource;}
 
     void Output();
+    const QString& ToString();
     QString logData;
     QString threadID;
     QString softwareVersion;
@@ -42,6 +44,7 @@ struct Log    //存储单条日志
     QString errorcategories;
     QString logContent;
     QString logSource;
+
 };
 
 class AdminLog : public QObject
@@ -64,7 +67,9 @@ public:
     QString ShellOrCloud(const QString& fileName);
 signals:
     void SendLogListToMainWindows(const QList<Log>& logList,int start);//将数据传送到mainwindows类,start 是logList中开始显示的日志的起始位置
+    void ToLogDetailWindow(const Log& log);
 public slots:
+    void GetLogClicked(int row ,int column);
 
 private:
     QList<Log> logList;
