@@ -139,10 +139,13 @@ void MainWindow::DisplayAll(const QList<Log> &logList,int start)   //start记录
 
 void MainWindow::LogDetailWindow(const Log& log)
 {
+    ui->label->adjustSize();
+    ui->label->setWordWrap(true);
     QString logDetail= QString("记录时间: ") + log.logData + QString("\n应用版本: ") + log.softwareVersion + QString("\n线程ID: ") + log.threadID
             + QString("\n日志级别: ") + log.logLevel + QString("\n出错类别: ") + log.errorcategories + QString("\n来源: ")
             + log.logSource + QString("\n错误描述:") + log.logContent;
     ui->label->setText(logDetail);
+
 }
 
 void MainWindow::dragEnterEvent(QDragEnterEvent *event)   //拖动进入事件
