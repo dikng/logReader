@@ -6,6 +6,7 @@
 #include <QMimeData>
 #include <QPainter>
 #include <QString>
+#include <QComboBox>
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
@@ -27,6 +28,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
 {
+    QColor *wordColor;
 //    qDebug() <<"enter DisplayOne()" << serial;
     QTableWidgetItem *itemSerial = new QTableWidgetItem(QString::number(serial + 1));
     QTableWidgetItem *itemLogData = new QTableWidgetItem(log.logData);
@@ -36,6 +38,7 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     QTableWidgetItem *itemErrorCategories = new QTableWidgetItem(log.errorcategories);
     QTableWidgetItem *itemLogSource = new QTableWidgetItem(log.logSource);
     QTableWidgetItem *itemLogContent = new QTableWidgetItem(tr(log.logContent.toStdString().c_str()));
+
 
     ui->tableWidget->setItem(serial,0,itemSerial);
     ui->tableWidget->setItem(serial,1,itemLogData);
@@ -47,26 +50,29 @@ void MainWindow::DisplayOne(const Log& log,int serial)    //显示log
     ui->tableWidget->setItem(serial,7,itemLogContent);
 //    ui->tableWidget->verticalHeader()->setDefaultSectionSize(25);
 
-
-
-/*    headList << QStringLiteral("序号") << QStringLiteral("记录时间") << QStringLiteral("应用版本")
-             << QStringLiteral("线程ID") << QStringLiteral("日志级别") << QStringLiteral("出错类")
-             << QStringLiteral("错误描述");
-
-    ui->tableWidget->setHorizontalHeaderLabels(headList);
-    ui->tableWidget->horizontalHeader()->setStyleSheet("QHeaderView::section{background:whitesmoke;}");
-    ui->tableWidget->setSelectionBehavior(QAbstractItemView::SelectRows);
-    ui->tableWidget->setEditTriggers(QAbstractItemView::NoEditTriggers);
-    ui->tableWidget->setSelectionMode(QAbstractItemView::SingleSelection);
-    ui->tableWidget->setAlternatingRowColors(true);
-    ui->tableWidget->verticalHeader()->setVisible(false);
-    ui->tableWidget->horizontalHeader()->setStretchLastSection(true);*/
-
     for(int i = 0;i < 7 ;i++){
         ui->tableWidget->item(serial,i)->setTextAlignment(Qt::AlignCenter);
         if(2 > serial)
             ui->tableWidget->resizeColumnToContents(i);
     }
+
+    if("info" == log.logLevel.toLower())
+        return;
+    else if("error" == log.logLevel.toLower())
+        wordColor = new QColor(Qt::red);
+    else if("warning" == log.logLevel.toLower())
+        wordColor = new QColor(Qt::yellow);
+    else
+        return;
+
+    itemSerial->setForeground(*wordColor);
+    itemLogData->setForeground(*wordColor);
+    itemSoftwareVersion->setForeground(*wordColor);
+    itemLogLevel->setForeground(*wordColor);
+    itemThreadID->setForeground(*wordColor);
+    itemErrorCategories->setForeground(*wordColor);
+    itemLogSource->setForeground(*wordColor);
+    itemLogContent->setForeground(*wordColor);
 }
 
 void MainWindow::InitTableHead()
@@ -91,6 +97,7 @@ void MainWindow::InitTableHead()
     ui->tableWidget->setAlternatingRowColors(true);
     ui->tableWidget->verticalHeader()->setVisible(false);
     ui->tableWidget->horizontalHeader()->setStretchLastSection(true);
+
 
 
 //    ui->tableWidget->horizontalHeader()->setSectionResizeMode(QHeaderView::Stretch);   //强行将各个字段的宽度一样
@@ -118,6 +125,12 @@ void MainWindow::DisplayAll(const QList<Log> &logList,int start)   //start记录
                      << iter->logType << "-" << iter->logContent <<endl;*/
         DisplayOne(*iter,serial++);
     }
+/*    QComboBox *comBox = new QComboBox();
+    comBox->addItem("Error");
+    comBox->addItem("Warning");
+    comBox->addItem("Info");
+    ui->tableWidget->setCellWidget(1,4,comBox);*/
+
 
 }
 
